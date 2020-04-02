@@ -239,7 +239,9 @@ MonoBehaviour:
   movingLeft: 0
   currentPos: {fileID: 0}
   moved: 0
+  isSprinting: 0
   MovementSpeed: 1
+  SprintSpeed: 2
 --- !u!143 &914470270
 CharacterController:
   m_ObjectHideFlags: 0

@@ -9,11 +9,16 @@ public class CharacterMovement : MonoBehaviour
     public float movingLeft;
     public Transform currentPos;
     public bool moved;
+    public bool isSprinting;
 
     private CharacterController c;
 
     [SerializeField]
     private float MovementSpeed;
+
+    [SerializeField]
+    [Tooltip("Increases movement speed by percentage, should be  value between 0 and 1")]
+    private float SprintSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +58,15 @@ public class CharacterMovement : MonoBehaviour
         {
             movingLeft = -MovementSpeed;
         }
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            isSprinting = true;
+        }
+        else
+        {
+            isSprinting = false;
+        }
         Debug.Log((movingUp != 0 || movingLeft != 0));
         return (movingUp != 0 || movingLeft != 0);
     }
@@ -60,6 +74,9 @@ public class CharacterMovement : MonoBehaviour
     private void Move()
     {
         Debug.Log("MoveCalled");
-        c.Move(new Vector3(movingLeft, movingUp, 0) * Time.deltaTime);
+        if (isSprinting)
+            c.Move(new Vector3(movingLeft + (movingLeft * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
+        else
+            c.Move(new Vector3(movingLeft, movingUp, 0) * Time.deltaTime);
     }
 }
