@@ -5,7 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
     #region Variables
-
+    GameObject Player;
     /// <summary>
     /// The two variables used for determining movement directions
     /// movingUp triggers an upward movement when positive and a downward movement when negative
@@ -13,6 +13,9 @@ public class CharacterMovement : MonoBehaviour
     /// </summary>
     public float movingUp;
     public float movingRight;
+
+    [SerializeField]
+    public Transform StartPos;
 
     //a reference to the current position and transform of the player
     public Transform currentPos;
@@ -47,10 +50,11 @@ public class CharacterMovement : MonoBehaviour
     {
         c = gameObject.GetComponent<CharacterController>();
         currentPos = gameObject.transform;
+        Player = gameObject;
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         
         if(checkInputs())

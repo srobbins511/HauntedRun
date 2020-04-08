@@ -31,6 +31,8 @@ public class EnemyController : MonoBehaviour
     private Vector3 tolerance = new Vector3(.5f, .5f, .5f);
     #endregion
 
+
+    #region Methods
     /// <summary>
     /// Instantiate the variables that will be used by the scripts
     /// Set the first waypoint
@@ -47,6 +49,14 @@ public class EnemyController : MonoBehaviour
         WayPointSwitched = false;
         findPath();
         EnemyMovement = StartCoroutine(EnemyMove());
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.tag.Equals("Player"))
+        {
+            GameManager.Instance.TriggerDeath();
+        }
     }
 
 
@@ -135,4 +145,6 @@ public class EnemyController : MonoBehaviour
     {
         return Mathf.Sqrt(Mathf.Pow(v.x, 2f) + Mathf.Pow(v.y, 2f) + Mathf.Pow(v.z, 2f));
     }
+
+    #endregion
 }
