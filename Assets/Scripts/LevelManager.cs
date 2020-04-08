@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField]
+    private List<GameObject> Keys;
 
-    public bool Key1;
-    public bool Key2;
-    public bool Key3;
-    // Start is called before the first frame update
-    void Start()
+    private int keyIndex = 0;
+
+    private int KeyMax;
+
+
+    public void Start()
     {
-        
+        KeyMax = Keys.Count;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnKeyCollect()
     {
-        
+        Debug.Log("On Key Collect");
+        keyIndex++;
     }
 
-
-    public void OnComplete()
+    private bool CheckKeys()
     {
-
+        return keyIndex >= KeyMax;
     }
 }

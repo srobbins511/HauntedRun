@@ -12,7 +12,7 @@ public class CharacterMovement : MonoBehaviour
     /// movingLeft triggers horizontal movement based on when it is positive or negative
     /// </summary>
     public float movingUp;
-    public float movingLeft;
+    public float movingRight;
 
     //a reference to the current position and transform of the player
     public Transform currentPos;
@@ -66,10 +66,17 @@ public class CharacterMovement : MonoBehaviour
     private bool checkInputs()
     {
         movingUp = 0f;
-        movingLeft = 0f;
+        movingRight = 0f;
 
+        movingRight = Input.GetAxis("Horizontal");
 
-        if(Input.GetKey(KeyCode.W))
+        movingUp = Input.GetAxis("Vertical");
+
+        movingRight *= MovementSpeed;
+
+        movingUp *= MovementSpeed;
+
+        /*if(Input.GetKey(KeyCode.W))
         {
             movingUp = MovementSpeed;
         }
@@ -80,12 +87,12 @@ public class CharacterMovement : MonoBehaviour
 
         if(Input.GetKey(KeyCode.D))
         {
-            movingLeft = MovementSpeed;
+            movingRight = MovementSpeed;
         }
         else if(Input.GetKey(KeyCode.A))
         {
-            movingLeft = -MovementSpeed;
-        }
+            movingRight = -MovementSpeed;
+        }*/
 
         if(Input.GetKey(KeyCode.LeftShift))
         {
@@ -95,8 +102,8 @@ public class CharacterMovement : MonoBehaviour
         {
             isSprinting = false;
         }
-        Debug.Log((movingUp != 0 || movingLeft != 0));
-        return (movingUp != 0 || movingLeft != 0);
+        Debug.Log((movingUp != 0 || movingRight != 0));
+        return (movingUp != 0 || movingRight != 0);
     }
 
     /// <summary>
@@ -106,8 +113,8 @@ public class CharacterMovement : MonoBehaviour
     private void Move()
     {
         if (isSprinting)
-            c.Move(new Vector3(movingLeft + (movingLeft * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
+            c.Move(new Vector3(movingRight + (movingRight * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
         else
-            c.Move(new Vector3(movingLeft, movingUp, 0) * Time.deltaTime);
+            c.Move(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
     }
 }
