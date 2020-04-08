@@ -76,23 +76,7 @@ public class CharacterMovement : MonoBehaviour
 
         movingUp *= MovementSpeed;
 
-        /*if(Input.GetKey(KeyCode.W))
-        {
-            movingUp = MovementSpeed;
-        }
-        else if(Input.GetKey(KeyCode.S))
-        {
-            movingUp = -MovementSpeed;
-        }
 
-        if(Input.GetKey(KeyCode.D))
-        {
-            movingRight = MovementSpeed;
-        }
-        else if(Input.GetKey(KeyCode.A))
-        {
-            movingRight = -MovementSpeed;
-        }*/
 
         if(Input.GetKey(KeyCode.LeftShift))
         {

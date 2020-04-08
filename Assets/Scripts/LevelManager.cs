@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
     [SerializeField]
     private List<GameObject> Keys;
+
+
+    [SerializeField]
+    private string NextLevel;
 
     private int keyIndex = 0;
 
@@ -23,6 +28,14 @@ public class LevelManager : MonoBehaviour
         keyIndex++;
     }
 
+
+    public void OnComplete()
+    {
+        if(CheckKeys())
+        {
+            SceneManager.LoadScene(NextLevel);
+        }
+    }
     private bool CheckKeys()
     {
         return keyIndex >= KeyMax;
