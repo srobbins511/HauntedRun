@@ -101,8 +101,8 @@ public class CharacterMovement : MonoBehaviour
     private void Move()
     {
         if (isSprinting)
-            c.Move(new Vector3(movingRight + (movingRight * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
+            gameObject.transform.Translate(new Vector3(movingRight + (movingRight * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
         else
-            c.Move(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
+            gameObject.transform.Translate(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
     }
 }

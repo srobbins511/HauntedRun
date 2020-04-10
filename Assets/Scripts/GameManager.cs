@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     public int numLives;
     public GameObject Player;
+
+    public string endLevel;
     public static GameManager Instance;
     void Awake()
     {
@@ -36,5 +38,10 @@ public class GameManager : MonoBehaviour
             Player.transform.position = Player.GetComponent<CharacterMovement>().StartPos.position;
             Player.SetActive(true);
         }
+    }
+
+    public void TriggerVictory()
+    {
+        //Some Mechanic needed to show victory
     }
 }
