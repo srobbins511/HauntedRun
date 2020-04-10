@@ -38,6 +38,8 @@ public class CharacterMovement : MonoBehaviour
     [Tooltip("Increases movement speed by percentage, should be  value between 0 and 1")]
     private float SprintSpeed;
 
+    [SerializeField]
+    private GameObject InteractCircle;
     #endregion
 
 
@@ -90,6 +92,12 @@ public class CharacterMovement : MonoBehaviour
         {
             isSprinting = false;
         }
+
+        if(Input.GetButtonDown("Interact"))
+        {
+            InteractCircle.GetComponent<InteractSphereController>().Activate();
+        }
+
         return (movingUp != 0 || movingRight != 0);
     }
 
