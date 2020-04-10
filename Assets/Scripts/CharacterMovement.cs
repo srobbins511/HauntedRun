@@ -90,7 +90,6 @@ public class CharacterMovement : MonoBehaviour
         {
             isSprinting = false;
         }
-        Debug.Log((movingUp != 0 || movingRight != 0));
         return (movingUp != 0 || movingRight != 0);
     }
 

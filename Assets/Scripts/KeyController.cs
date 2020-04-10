@@ -14,7 +14,7 @@ public class KeyController : MonoBehaviour
         LevelManager = GameObject.FindGameObjectWithTag("LevelManager");
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         collected = true;
         LevelManager.GetComponent<LevelManager>().OnKeyCollect();

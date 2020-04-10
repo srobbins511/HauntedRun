@@ -51,8 +51,9 @@ public class EnemyController : MonoBehaviour
         EnemyMovement = StartCoroutine(EnemyMove());
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.name);
         if(other.tag.Equals("Player"))
         {
             GameManager.Instance.TriggerDeath();

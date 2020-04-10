@@ -12,7 +12,7 @@ public class WInZone : MonoBehaviour
         LevelManager = GameObject.FindGameObjectWithTag("LevelManager");
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Trigger Enter");
         LevelManager.GetComponent<LevelManager>().OnComplete();
