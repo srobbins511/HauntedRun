@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: aca7482aecb334198bea7b7f4f444a83
+guid: 996792b7a4f6e4030b22e45bbcab69f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8815959370317489325
-    second: walkup_spritesheet_0
+      213: -500034903041759638
+    second: ghost1upspritesheet_0
   - first:
-      213: 4319580287635300550
-    second: walkup_spritesheet_1
+      213: -5012330211462691059
+    second: ghost1upspritesheet_1
   - first:
-      213: -3608228319474001328
-    second: walkup_spritesheet_2
+      213: -6219582950181016660
+    second: ghost1upspritesheet_2
   - first:
-      213: 1231694528611207825
-    second: walkup_spritesheet_3
+      213: 6859628143310973975
+    second: ghost1upspritesheet_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkup_spritesheet_0
+      name: ghost1upspritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b13f169ab67a580800000000000000
-      internalID: -8815959370317489325
+      spriteID: a6626eca7e48f09f0800000000000000
+      internalID: -500034903041759638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkup_spritesheet_1
+      name: ghost1upspritesheet_1
       rect:
         serializedVersion: 2
         x: 120
@@ -133,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0284fa26b32fb30800000000000000
-      internalID: 4319580287635300550
+      spriteID: d07cec8aa30a07ab0800000000000000
+      internalID: -5012330211462691059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkup_spritesheet_2
+      name: ghost1upspritesheet_2
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +154,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05a5f3de57ffcedc0800000000000000
-      internalID: -3608228319474001328
+      spriteID: cab6263724a9fa9a0800000000000000
+      internalID: -6219582950181016660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkup_spritesheet_3
+      name: ghost1upspritesheet_3
       rect:
         serializedVersion: 2
         x: 120
@@ -175,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ac9a1e5abd71110800000000000000
-      internalID: 1231694528611207825
+      spriteID: 71ca255d37b423f50800000000000000
+      internalID: 6859628143310973975
       vertices: []
       indices: 
       edges: []
