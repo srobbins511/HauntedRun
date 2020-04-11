@@ -43,4 +43,12 @@ public class GameManager : MonoBehaviour
     {
         //Some Mechanic needed to show victory
     }
+
+    public void Update()
+    {
+        if(Input.GetButtonDown("Exit"))
+        {
+            Application.Quit();
+        }
+    }
 }
