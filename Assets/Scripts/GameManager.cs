@@ -34,9 +34,8 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Player.SetActive(false);
+            Debug.Log("Reset Movement called");
             Player.transform.position = Player.GetComponent<CharacterMovement>().StartPos.position;
-            Player.SetActive(true);
         }
     }
 
