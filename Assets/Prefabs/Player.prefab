@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 539709927}
   - component: {fileID: 539709929}
   - component: {fileID: 539709928}
+  - component: {fileID: 2002740211}
   m_Layer: 0
   m_Name: InteractSphere
   m_TagString: Untagged
@@ -98,6 +99,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.10000002
+--- !u!114 &2002740211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539709926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02e3360241ff7b41ac5d0d5cc0d5f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startScale: 0
+  endScale: 10
 --- !u!1 &5159023482775849828
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,7 +258,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.2, y: 1.2}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
