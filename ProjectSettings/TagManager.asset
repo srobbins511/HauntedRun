@@ -7,6 +7,9 @@ TagManager:
   - Collectable
   - LevelManager
   - GameManager
+  - InteractCircle
+  - Interactable
+  - LeverControlled
   layers:
   - Default
   - TransparentFX
