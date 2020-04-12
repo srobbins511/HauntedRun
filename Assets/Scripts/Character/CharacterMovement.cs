@@ -82,10 +82,10 @@ public class CharacterMovement : MonoBehaviour
         if(movingRight == 1)
         {
             Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, 90);
+            interactZone.eulerAngles = new Vector3(0, 0, -90);
         } else if(movingRight == -1) {
             Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, -90);
+            interactZone.eulerAngles = new Vector3(0, 0, 90);
         }
 
         movingUp = Input.GetAxisRaw("Vertical");
