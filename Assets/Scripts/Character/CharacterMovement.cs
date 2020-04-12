@@ -77,12 +77,29 @@ public class CharacterMovement : MonoBehaviour
     /// <returns></returns>
     private void checkInputs()
     {
-       
+        
         movingRight = Input.GetAxisRaw("Horizontal");
+        if(movingRight == 1)
+        {
+            Quaternion interactZone = InteractCircle.transform.rotation;
+            interactZone.eulerAngles = new Vector3(0, 0, 90);
+        } else if(movingRight == -1) {
+            Quaternion interactZone = InteractCircle.transform.rotation;
+            interactZone.eulerAngles = new Vector3(0, 0, -90);
+        }
 
-        Debug.Log(movingRight);
         movingUp = Input.GetAxisRaw("Vertical");
 
+        if(movingUp == 1)
+        {
+            Quaternion interactZone = InteractCircle.transform.rotation;
+            interactZone.eulerAngles = new Vector3(0, 0, 0);
+        }
+        else if(movingUp == -1)
+        {
+            Quaternion interactZone = InteractCircle.transform.rotation;
+            interactZone.eulerAngles = new Vector3(0, 0, 180);
+        }
         movingRight *= map.cellSize.x;
         movingUp *= map.cellSize.y;
 
@@ -92,7 +109,6 @@ public class CharacterMovement : MonoBehaviour
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
         
-        Debug.Log(TargetLocation);
         
 
         if(Input.GetKey(KeyCode.LeftShift))
@@ -136,5 +152,11 @@ public class CharacterMovement : MonoBehaviour
     public void OnCollisionStay2D(Collision2D collision)
     {
         TargetLocation = prevLocation;
+    }
+
+    public void onDeath()
+    {
+        gameObject.transform.position = StartPos.position;
+        TargetLocation = StartPos.position;
     }
 }

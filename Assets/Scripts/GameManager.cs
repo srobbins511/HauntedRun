@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.Log("Reset Movement called");
-            Player.transform.position = Player.GetComponent<CharacterMovement>().StartPos.position;
+            Player.GetComponent<CharacterMovement>().onDeath();
         }
     }
 

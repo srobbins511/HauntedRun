@@ -12,7 +12,7 @@ public class InteractSphereController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        isActive = false;
+        isActive = true;
     }
 
     public void Activate()
@@ -25,7 +25,7 @@ public class InteractSphereController : MonoBehaviour
     {
         if(isActive)
         {
-            isActive = false;
+            //isActive = false;
         }
         else if(gameObject.activeSelf)
         {
