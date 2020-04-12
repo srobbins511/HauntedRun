@@ -14,6 +14,7 @@ public class CharacterMovement : MonoBehaviour
     public float movingUp;
     public float movingRight;
 
+    public Grid map;
     [SerializeField]
     public Transform StartPos;
 
@@ -27,12 +28,11 @@ public class CharacterMovement : MonoBehaviour
     public bool moved;
     public bool isSprinting;
 
-    //reference to the character controller attached to the player object
-    private CharacterController c;
-
+    private Vector3 TargetLocation;
+    private Vector3 prevLocation;
+    
     [SerializeField]
-    [Tooltip("Determines how fast that the player will be moving, should be positive")]
-    private float MovementSpeed;
+    private float MovementSpeed = .5f;
 
     [SerializeField]
     [Tooltip("Increases movement speed by percentage, should be  value between 0 and 1")]
@@ -40,6 +40,10 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField]
     private GameObject InteractCircle;
+
+    [SerializeField]
+    private float offset;
+    public bool targetLocationReached;
     #endregion
 
 
@@ -50,17 +54,19 @@ public class CharacterMovement : MonoBehaviour
     /// </summary>
     void Start()
     {
-        c = gameObject.GetComponent<CharacterController>();
         currentPos = gameObject.transform;
         Player = gameObject;
+        TargetLocation = gameObject.transform.position;
+        prevLocation = gameObject.transform.position;
+        targetLocationReached = true;
     }
 
     // Update is called once per frame
-    void LateUpdate()
+    void FixedUpdate()
     {
-        
-        if(checkInputs())
-            Move();
+        if(targetLocationReached)
+            checkInputs();
+        Move();
         
     }
 
@@ -69,20 +75,25 @@ public class CharacterMovement : MonoBehaviour
     /// returns a bool value as to whether the character needs to move
     /// </summary>
     /// <returns></returns>
-    private bool checkInputs()
+    private void checkInputs()
     {
-        movingUp = 0f;
-        movingRight = 0f;
+       
+        movingRight = Input.GetAxisRaw("Horizontal");
 
-        movingRight = Input.GetAxis("Horizontal");
+        Debug.Log(movingRight);
+        movingUp = Input.GetAxisRaw("Vertical");
 
-        movingUp = Input.GetAxis("Vertical");
+        movingRight *= map.cellSize.x;
+        movingUp *= map.cellSize.y;
 
-        movingRight *= MovementSpeed;
-
-        movingUp *= MovementSpeed;
-
-
+        if(movingUp != 0 || movingRight != 0)
+        {
+            TargetLocation = new Vector3(gameObject.transform.position.x + movingRight, gameObject.transform.position.y + movingUp, 0);
+            TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
+        }
+        
+        Debug.Log(TargetLocation);
+        
 
         if(Input.GetKey(KeyCode.LeftShift))
         {
@@ -97,8 +108,8 @@ public class CharacterMovement : MonoBehaviour
         {
             InteractCircle.GetComponent<InteractSphereController>().Activate();
         }
-
-        return (movingUp != 0 || movingRight != 0);
+        targetLocationReached = false;
+        
     }
 
     /// <summary>
@@ -107,9 +118,23 @@ public class CharacterMovement : MonoBehaviour
     /// </summary>
     private void Move()
     {
+        /*
         if (isSprinting)
             gameObject.transform.Translate(new Vector3(movingRight + (movingRight * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
         else
             gameObject.transform.Translate(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
+            */
+        Debug.Log("Move Called");
+        gameObject.transform.position = new Vector3 (Mathf.Lerp(gameObject.transform.position.x, TargetLocation.x, MovementSpeed), Mathf.Lerp(gameObject.transform.position.y, TargetLocation.y, MovementSpeed));
+        if(Mathf.Abs(gameObject.transform.position.x- TargetLocation.x) <= .5f && Mathf.Abs(gameObject.transform.position.y - TargetLocation.y) <= .5f)
+        {
+            targetLocationReached = true;
+            prevLocation = TargetLocation;
+        }
+    }
+
+    public void OnCollisionStay2D(Collision2D collision)
+    {
+        TargetLocation = prevLocation;
     }
 }

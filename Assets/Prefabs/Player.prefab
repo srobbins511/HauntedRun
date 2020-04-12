@@ -13,12 +13,12 @@ GameObject:
   - component: {fileID: 539709928}
   - component: {fileID: 2002740211}
   m_Layer: 0
-  m_Name: InteractSphere
-  m_TagString: Untagged
+  m_Name: InteractBox
+  m_TagString: InteractCircle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &539709927
 Transform:
   m_ObjectHideFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 539709926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.02, y: -0.41, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 5159023482775849850}
   m_RootOrder: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -46529386905721264, guid: d7e1c52c3fd955241bc76b8d8ac8b621, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startScale: 0
-  endScale: 10
+  endScale: 1
 --- !u!1 &5159023482775849828
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,7 +142,7 @@ Transform:
   m_GameObject: {fileID: 5159023482775849828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.44, y: 30.01, z: 0}
-  m_LocalScale: {x: 2.247501, y: 2.247501, z: 2.247501}
+  m_LocalScale: {x: 2.247501, y: 2.1632195, z: 2.247501}
   m_Children:
   - {fileID: 539709927}
   m_Father: {fileID: 0}
@@ -213,6 +213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movingUp: 0
   movingRight: 0
+  map: {fileID: 0}
   StartPos: {fileID: 0}
   currentPos: {fileID: 0}
   moved: 0
@@ -220,6 +221,8 @@ MonoBehaviour:
   MovementSpeed: 4.46
   SprintSpeed: 0.5
   InteractCircle: {fileID: 539709926}
+  offset: 0
+  targetLocationReached: 0
 --- !u!50 &577513556
 Rigidbody2D:
   serializedVersion: 4

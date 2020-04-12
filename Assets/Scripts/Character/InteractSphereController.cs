@@ -7,26 +7,28 @@ public class InteractSphereController : MonoBehaviour
 
     public float startScale;
     public float endScale;
+
+    private bool isActive;
     // Start is called before the first frame update
     void Start()
     {
-        
+        isActive = false;
     }
 
     public void Activate()
     {
         gameObject.SetActive(true);
+        isActive = true;
     }
 
     public void Update()
     {
-        if( !(gameObject.transform.localScale.x >= 9))
+        if(isActive)
         {
-            gameObject.transform.localScale = new Vector3(Mathf.Lerp(gameObject.transform.localScale.x, endScale, .1f), Mathf.Lerp(gameObject.transform.localScale.y, endScale, .1f), 0f );
+            isActive = false;
         }
-        else
+        else if(gameObject.activeSelf)
         {
-            gameObject.transform.localScale = new Vector3(Mathf.Lerp(gameObject.transform.localScale.x, startScale, .1f), Mathf.Lerp(gameObject.transform.localScale.y, startScale, .1f), 0f);
             gameObject.SetActive(false);
         }
     }
