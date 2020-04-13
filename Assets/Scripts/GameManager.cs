@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
             Player.GetComponent<CharacterMovement>().onDeath();
         }
     }
-
+    //
     public void TriggerVictory()
     {
         //Some Mechanic needed to show victory
