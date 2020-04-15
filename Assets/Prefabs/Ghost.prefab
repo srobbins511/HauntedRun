@@ -58,7 +58,7 @@ Transform:
   m_GameObject: {fileID: 865811078064398060}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.96101624, y: -23.41439, z: 0}
-  m_LocalScale: {x: 3.5247, y: 3.5247, z: 3.5247}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 865811079263169645}
   m_RootOrder: 0
@@ -102,7 +102,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: e4cb75ff6d0078e4d939c60f1e1bbf96, type: 3}
+  m_Sprite: {fileID: 7427523813617989595, guid: dbd407af8244245eca602ecf8fcbfab5,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -142,8 +143,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013721751, y: -0.04939831}
-  m_Size: {x: 0.2330086, y: 0.4314292}
+  m_Offset: {x: 0.05065996, y: 0.03346302}
+  m_Size: {x: 0.30688497, y: 0.5971519}
   m_Direction: 0
 --- !u!1 &865811079252586916
 GameObject:
@@ -185,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 865811079263169645}
   m_Layer: 0
-  m_Name: Ghost1
+  m_Name: Ghost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
