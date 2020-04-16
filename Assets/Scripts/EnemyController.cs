@@ -51,9 +51,28 @@ public class EnemyController : MonoBehaviour
         findPath();
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log(other.name);
+        Debug.Log(other.tag);
+        switch (other.tag)
+        {
+            case "Player":
+                GameManager.Instance.TriggerDeath();
+                break;
+            case "ChaseZone":
+                if (other.gameObject.GetComponent<ChaseZone>().player != null)
+                {
+                    state = 1;
+                    targetWaypoint = other.gameObject.GetComponent<ChaseZone>().player.transform;
+                }
+                else
+                {
+                    state = 0;
+                    targetWaypoint = Waypoints[currentWaypoint];
+                    findPath();
+                }
+                break;
+        }
         if(other.tag.Equals("Player"))
         {
             GameManager.Instance.TriggerDeath();
@@ -101,6 +120,19 @@ public class EnemyController : MonoBehaviour
             WayPointSwitched = true;
         }
        
+    }
+
+    public void Chase()
+    {
+        if(state == 1)
+        {
+            findPath();
+
+            gameObject.transform.position += Path;
+
+            //save the current position of the enemy
+            curPosition = gameObject.transform;
+        }
     }
 
     /// <summary>

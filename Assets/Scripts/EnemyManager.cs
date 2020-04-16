@@ -30,6 +30,9 @@ public class EnemyManager : MonoBehaviour
                         Debug.Log("Enemy move called");
                         e.GetComponent<EnemyController>().Move();
                         break;
+                    case 1:
+                        e.GetComponent<EnemyController>().Chase();
+                        break;
                 }
             }
             Debug.Log("Coroutine called");
