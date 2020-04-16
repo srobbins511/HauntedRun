@@ -59,6 +59,7 @@ public class CharacterMovement : MonoBehaviour
         TargetLocation = gameObject.transform.position;
         prevLocation = gameObject.transform.position;
         targetLocationReached = true;
+        map = FindObjectOfType<Grid>();
     }
 
     // Update is called once per frame
