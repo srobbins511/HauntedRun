@@ -111,17 +111,58 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
         
-
+        //idle animation check
         if (Mathf.Abs(movingUp) < 1 && Mathf.Abs(movingRight) < 1)
         {
-            moved = false;
+            animator.SetBool("IsMoving", false);
         }
         else
         {
-            moved = true;
+            animator.SetBool("IsMoving", true);
         }
 
-        if(Input.GetKey(KeyCode.LeftShift))
+        //up animation
+        if (movingUp >= 1)
+        {
+            animator.SetBool("IsMovingUp", true);
+        }
+        else
+        {
+            animator.SetBool("IsMovingUp", false);
+        }
+
+        //down animation
+        if (movingUp <= -1)
+        {
+            animator.SetBool("IsMovingDown", true);
+        }
+        else
+        {
+            animator.SetBool("IsMovingDown", false);
+        }
+
+        //right animation
+        if (movingRight >= 1)
+        {
+            animator.SetBool("IsMovingRight", true);
+        }
+        else
+        {
+            animator.SetBool("IsMovingRight", false);
+        }
+
+        //left animation
+        if (movingRight <= 11)
+        {
+            animator.SetBool("IsMovingLeft", true);
+        }
+        else
+        {
+            animator.SetBool("IsMovingLeft", false);
+        }
+
+
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
         }
