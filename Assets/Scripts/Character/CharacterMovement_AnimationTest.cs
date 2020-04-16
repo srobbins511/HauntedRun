@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement_AnimationTest : MonoBehaviour
+public class CharacterMovement_AnimationTest : CharacterMovement
 {
     #region Variables
+    /*
     GameObject Player;
     /// <summary>
     /// The two variables used for determining movement directions
@@ -44,6 +45,7 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
     [SerializeField]
     private float offset;
     public bool targetLocationReached;
+    */
     #endregion
 
     public Animator animator;
@@ -54,21 +56,27 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
     /// start
     /// Start is called before the first frame update
     /// </summary>
-    void Start()
+    protected override void Start()
     {
+        base.Start();
+        /*
         currentPos = gameObject.transform;
         Player = gameObject;
         TargetLocation = gameObject.transform.position;
         prevLocation = gameObject.transform.position;
         targetLocationReached = true;
+        */
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    protected override void FixedUpdate()
     {
+        base.FixedUpdate();
+        /*
         if(targetLocationReached)
             checkInputs();
         Move();
+        */
         
     }
 
@@ -77,9 +85,10 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
     /// returns a bool value as to whether the character needs to move
     /// </summary>
     /// <returns></returns>
-    private void checkInputs()
+    protected override void checkInputs()
     {
-        
+        base.checkInputs();
+        /*
         movingRight = Input.GetAxisRaw("Horizontal");
         if(movingRight == 1)
         {
@@ -110,6 +119,7 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
             TargetLocation = new Vector3(gameObject.transform.position.x + movingRight, gameObject.transform.position.y + movingUp, 0);
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
+        */
         
         //idle animation check
         if (Mathf.Abs(movingUp) < 1 && Mathf.Abs(movingRight) < 1)
@@ -161,7 +171,7 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
             animator.SetBool("IsMovingLeft", false);
         }
 
-
+        /*
         if (Input.GetKey(KeyCode.LeftShift))
         {
             isSprinting = true;
@@ -176,21 +186,22 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
             InteractCircle.GetComponent<InteractSphereController>().Activate();
         }
         targetLocationReached = false;
-        
+        */
     }
 
     /// <summary>
     /// Method to move the player by 
     /// leveraging the character controller move method
     /// </summary>
-    private void Move()
+    protected override void Move()
     {
+        base.Move();
         /*
         if (isSprinting)
             gameObject.transform.Translate(new Vector3(movingRight + (movingRight * SprintSpeed), movingUp + (movingUp * SprintSpeed), 0) * Time.deltaTime);
         else
             gameObject.transform.Translate(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
-            */
+            
         Debug.Log("Move Called");
         gameObject.transform.position = new Vector3 (Mathf.Lerp(gameObject.transform.position.x, TargetLocation.x, MovementSpeed), Mathf.Lerp(gameObject.transform.position.y, TargetLocation.y, MovementSpeed));
         if(Mathf.Abs(gameObject.transform.position.x- TargetLocation.x) <= .5f && Mathf.Abs(gameObject.transform.position.y - TargetLocation.y) <= .5f)
@@ -198,16 +209,21 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
             targetLocationReached = true;
             prevLocation = TargetLocation;
         }
+        */
     }
 
-    public void OnCollisionStay2D(Collision2D collision)
+    public override void OnCollisionStay2D(Collision2D collision)
     {
-        TargetLocation = prevLocation;
+        base.OnCollisionStay2D(collision);
+        //TargetLocation = prevLocation;
     }
 
-    public void onDeath()
+    public override void onDeath()
     {
+        base.onDeath();
+        /*
         gameObject.transform.position = StartPos.position;
         TargetLocation = StartPos.position;
+        */
     }
 }

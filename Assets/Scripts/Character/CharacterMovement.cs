@@ -52,7 +52,7 @@ public class CharacterMovement : MonoBehaviour
     /// start
     /// Start is called before the first frame update
     /// </summary>
-    void Start()
+    protected virtual void Start()
     {
         currentPos = gameObject.transform;
         Player = gameObject;
@@ -62,7 +62,7 @@ public class CharacterMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if(targetLocationReached)
             checkInputs();
@@ -75,7 +75,7 @@ public class CharacterMovement : MonoBehaviour
     /// returns a bool value as to whether the character needs to move
     /// </summary>
     /// <returns></returns>
-    private void checkInputs()
+    protected virtual void checkInputs()
     {
         
         movingRight = Input.GetAxisRaw("Horizontal");
@@ -132,7 +132,7 @@ public class CharacterMovement : MonoBehaviour
     /// Method to move the player by 
     /// leveraging the character controller move method
     /// </summary>
-    private void Move()
+    protected virtual void Move()
     {
         /*
         if (isSprinting)
@@ -149,13 +149,14 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    public void OnCollisionStay2D(Collision2D collision)
+    public virtual void OnCollisionStay2D(Collision2D collision)
     {
         TargetLocation = prevLocation;
     }
 
-    public void onDeath()
+    public virtual void onDeath()
     {
+        Debug.Log("OnDeath Called");
         gameObject.transform.position = StartPos.position;
         TargetLocation = StartPos.position;
     }
