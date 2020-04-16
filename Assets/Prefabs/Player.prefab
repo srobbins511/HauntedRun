@@ -72,7 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5159023482775849850}
   - component: {fileID: 5159023482775849851}
-  - component: {fileID: 5159023482775849849}
+  - component: {fileID: 5434181647008898726}
   - component: {fileID: 577513556}
   - component: {fileID: 577513554}
   m_Layer: 0
@@ -148,7 +148,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5159023482775849849
+--- !u!114 &5434181647008898726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5159023482775849828}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf008e51af284754ab655900eb0f8383, type: 3}
+  m_Script: {fileID: 11500000, guid: d21f225d756a34a73aaf496a0111c974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movingUp: 0
@@ -167,11 +167,12 @@ MonoBehaviour:
   currentPos: {fileID: 0}
   moved: 0
   isSprinting: 0
-  MovementSpeed: 0.1
-  SprintSpeed: 0.5
-  InteractCircle: {fileID: 539709926}
+  MovementSpeed: 0.5
+  SprintSpeed: 0
+  InteractCircle: {fileID: 0}
   offset: 0
   targetLocationReached: 0
+  animator: {fileID: 0}
 --- !u!50 &577513556
 Rigidbody2D:
   serializedVersion: 4
@@ -209,7 +210,7 @@ BoxCollider2D:
   m_Offset: {x: -0.03826034, y: -0.04008326}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.53875965, y: 0.2679588}
+    pivot: {x: 0.5214339, y: 0.2266279}
     oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5

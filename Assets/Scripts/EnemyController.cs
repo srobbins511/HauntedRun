@@ -12,17 +12,17 @@ public class EnemyController : MonoBehaviour
 
     private Transform curPosition;
 
-    public Coroutine EnemyMovement;
-
-    private int currentWaypoint;
+    public int currentWaypoint;
 
     private int numWayPoints;
 
-    private Transform targetWaypoint;
+    public Transform targetWaypoint;
 
     private bool WayPointSwitched;
 
     private Vector3 Path;
+
+    public int state;
 
     [SerializeField]
     [Tooltip("How fast the enemy will move, will be a very low value greater than zero")]
@@ -42,13 +42,13 @@ public class EnemyController : MonoBehaviour
     /// </summary>
     void Start()
     {
+        state = 0;
         curPosition = gameObject.transform;
         currentWaypoint = 0;
         numWayPoints = Waypoints.Count;
         targetWaypoint = Waypoints[currentWaypoint];
         WayPointSwitched = false;
         findPath();
-        EnemyMovement = StartCoroutine(EnemyMove());
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -65,45 +65,42 @@ public class EnemyController : MonoBehaviour
     /// Coroutine that determines enemy movement
     /// </summary>
     /// <returns></returns>
-    IEnumerator EnemyMove()
+    public void Move()
     {
-        while(true)
+        Debug.Log("Enemy has moved");
+        //checks to see if the waypoints have changed by looking at flag variable
+        if (WayPointSwitched)
         {
-            //checks to see if the waypoints have changed by looking at flag variable
-            if(WayPointSwitched)
-            {
-                //if yes findd the new path
-                findPath();
-            }
-            //move the enemy down the path
-            gameObject.transform.position += Path;
-
-            //save the current position of the enemy
-            curPosition = gameObject.transform;
-
-            //checck to seee if the waypoint has been reached
-            if (Mathf.Abs(curPosition.position.x - targetWaypoint.position.x) <= 1 && Mathf.Abs(curPosition.position.y - targetWaypoint.position.y) <= 1)
-            {
-                //if waypoint has been reached, check to see if the way point was the last one in the list
-                if(currentWaypoint < numWayPoints-1)
-                {
-                    //if it is not the last one, increment waypoint counter
-                    currentWaypoint++;
-                }
-                else
-                {
-                    //if it was the last one reset the waypoint counter
-                    currentWaypoint = 0;
-                }
-                //grab the new waypoint from the list using the updated counter
-                targetWaypoint = Waypoints[currentWaypoint];
-
-                //change flag variable for if waypoints have been switched
-                WayPointSwitched = true;
-            }
-            yield return new WaitForEndOfFrame();
+            //if yes findd the new path
+            findPath();
         }
-        
+        //move the enemy down the path
+        gameObject.transform.position += Path;
+
+        //save the current position of the enemy
+        curPosition = gameObject.transform;
+
+        //checck to seee if the waypoint has been reached
+        if (Mathf.Abs(curPosition.position.x - targetWaypoint.position.x) <= 1 && Mathf.Abs(curPosition.position.y - targetWaypoint.position.y) <= 1)
+        {
+            //if waypoint has been reached, check to see if the way point was the last one in the list
+            if(currentWaypoint < numWayPoints-1)
+            {
+                //if it is not the last one, increment waypoint counter
+                currentWaypoint++;
+            }
+            else
+            {
+                //if it was the last one reset the waypoint counter
+                currentWaypoint = 0;
+            }
+            //grab the new waypoint from the list using the updated counter
+            targetWaypoint = Waypoints[currentWaypoint];
+
+            //change flag variable for if waypoints have been switched
+            WayPointSwitched = true;
+        }
+       
     }
 
     /// <summary>

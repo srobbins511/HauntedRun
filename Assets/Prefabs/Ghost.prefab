@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 865811078064398048}
   m_Layer: 0
   m_Name: Ghost Stand in
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,6 +129,9 @@ MonoBehaviour:
   Waypoints:
   - {fileID: 865811077698270343}
   - {fileID: 865811079252586919}
+  currentWaypoint: 0
+  targetWaypoint: {fileID: 0}
+  state: 0
   movementSpeed: 0.025
 --- !u!70 &865811078064398048
 CapsuleCollider2D:
