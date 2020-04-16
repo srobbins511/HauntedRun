@@ -152,7 +152,7 @@ public class CharacterMovement_AnimationTest : MonoBehaviour
         }
 
         //left animation
-        if (movingRight <= 11)
+        if (movingRight <= -1)
         {
             animator.SetBool("IsMovingLeft", true);
         }
