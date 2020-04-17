@@ -60,17 +60,7 @@ public class EnemyController : MonoBehaviour
                 GameManager.Instance.TriggerDeath();
                 break;
             case "ChaseZone":
-                if (other.gameObject.GetComponent<ChaseZone>().player != null)
-                {
-                    state = 1;
-                    targetWaypoint = other.gameObject.GetComponent<ChaseZone>().player.transform;
-                }
-                else
-                {
-                    state = 0;
-                    targetWaypoint = Waypoints[currentWaypoint];
-                    findPath();
-                }
+                checkZone(other.gameObject);
                 break;
         }
         if(other.tag.Equals("Player"))
@@ -174,6 +164,21 @@ public class EnemyController : MonoBehaviour
     private float Magnitude(Vector3 v)
     {
         return Mathf.Sqrt(Mathf.Pow(v.x, 2f) + Mathf.Pow(v.y, 2f) + Mathf.Pow(v.z, 2f));
+    }
+
+    public void checkZone(GameObject zone)
+    {
+        if (zone.GetComponent<ChaseZone>().player != null)
+        {
+            state = 1;
+            targetWaypoint = zone.GetComponent<ChaseZone>().player.transform;
+        }
+        else
+        {
+            state = 0;
+            targetWaypoint = Waypoints[currentWaypoint];
+            findPath();
+        }
     }
 
     #endregion

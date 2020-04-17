@@ -5,17 +5,28 @@ using UnityEngine;
 public class ChaseZone : MonoBehaviour
 {
     public GameObject player;
+
+    private bool isNestedInEnemy;
     void Start()
     {
         player = null;
+        if(gameObject.GetComponentInParent<EnemyController>() != null)
+        {
+            isNestedInEnemy = true;
+        }
     }
 
     // Update is called once per frame
-    public void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
         if(collision.tag.Equals("Player"))
         {
+            Debug.Log("Player Detected");
             player = collision.gameObject;
+            if(isNestedInEnemy)
+            {
+                gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+            }
         }
     }
 
@@ -24,6 +35,10 @@ public class ChaseZone : MonoBehaviour
         if(collision.tag.Equals("Player"))
         {
             player = null;
+            if (isNestedInEnemy)
+            {
+                gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+            }
         }
     }
 }
