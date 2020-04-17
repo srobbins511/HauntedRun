@@ -53,7 +53,7 @@ public class EnemyController : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log(other.tag);
+        Debug.Log(other.gameObject.name);
         switch (other.tag)
         {
             case "Player":
@@ -76,7 +76,6 @@ public class EnemyController : MonoBehaviour
     /// <returns></returns>
     public void Move()
     {
-        Debug.Log("Enemy has moved");
         //checks to see if the waypoints have changed by looking at flag variable
         if (WayPointSwitched)
         {

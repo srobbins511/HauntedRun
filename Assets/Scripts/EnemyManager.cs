@@ -27,7 +27,6 @@ public class EnemyManager : MonoBehaviour
                 {
                     //default movement option
                     case 0:
-                        Debug.Log("Enemy move called");
                         e.GetComponent<EnemyController>().Move();
                         break;
                     case 1:
@@ -35,7 +34,6 @@ public class EnemyManager : MonoBehaviour
                         break;
                 }
             }
-            Debug.Log("Coroutine called");
             yield return new WaitForFixedUpdate();
         }
     }

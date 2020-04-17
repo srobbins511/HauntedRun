@@ -19,6 +19,7 @@ public class ChaseZone : MonoBehaviour
     // Update is called once per frame
     public void OnTriggerStay2D(Collider2D collision)
     {
+       // Debug.Log(collision.gameObject.name);
         if(collision.tag.Equals("Player"))
         {
             Debug.Log("Player Detected");
