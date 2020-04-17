@@ -38,6 +38,14 @@ public class GameManager : MonoBehaviour
             Player.GetComponent<CharacterMovement>().onDeath();
         }
     }
+
+    public void Update()
+    {
+        if(Input.GetButtonDown("Cancel"))
+        {
+            Application.Quit();
+        }
+    }
     //
     public void TriggerVictory()
     {
