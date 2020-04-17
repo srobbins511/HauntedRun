@@ -63,10 +63,6 @@ public class EnemyController : MonoBehaviour
                 checkZone(other.gameObject);
                 break;
         }
-        if(other.tag.Equals("Player"))
-        {
-            GameManager.Instance.TriggerDeath();
-        }
     }
 
 
