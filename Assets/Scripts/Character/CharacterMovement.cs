@@ -21,6 +21,8 @@ public class CharacterMovement : MonoBehaviour
     //a reference to the current position and transform of the player
     public Transform currentPos;
 
+    public List<GameObject> Powers;
+
     /// <summary>
     /// Variables that show if a player is moving and
     /// if thier movement is being affected by a sprint command
@@ -60,6 +62,7 @@ public class CharacterMovement : MonoBehaviour
         prevLocation = gameObject.transform.position;
         targetLocationReached = true;
         map = FindObjectOfType<Grid>();
+        Powers = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -80,27 +83,11 @@ public class CharacterMovement : MonoBehaviour
     {
         
         movingRight = Input.GetAxisRaw("Horizontal");
-        if(movingRight == 1)
-        {
-            Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, -90);
-        } else if(movingRight == -1) {
-            Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, 90);
-        }
+        
 
         movingUp = Input.GetAxisRaw("Vertical");
 
-        if(movingUp == 1)
-        {
-            Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, 0);
-        }
-        else if(movingUp == -1)
-        {
-            Quaternion interactZone = InteractCircle.transform.rotation;
-            interactZone.eulerAngles = new Vector3(0, 0, 180);
-        }
+       
         movingRight *= map.cellSize.x;
         movingUp *= map.cellSize.y;
 
@@ -124,6 +111,14 @@ public class CharacterMovement : MonoBehaviour
         if(Input.GetButtonDown("Interact"))
         {
             InteractCircle.GetComponent<InteractSphereController>().Activate();
+        }
+
+        if(Input.GetButton("Fire1"))
+        {
+            if(Powers.Count > 0)
+            {
+                Powers[0].GetComponent<Activatable>().Activate(gameObject);
+            }
         }
         targetLocationReached = false;
         

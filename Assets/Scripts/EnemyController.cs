@@ -163,7 +163,7 @@ public class EnemyController : MonoBehaviour
 
     public void checkZone(GameObject zone)
     {
-        if (zone.GetComponent<ChaseZone>().player != null)
+        if (zone.GetComponent<ChaseZone>().player != null && zone.GetComponent<ChaseZone>().canSeePlayer)
         {
             state = 1;
             targetWaypoint = zone.GetComponent<ChaseZone>().player.transform;

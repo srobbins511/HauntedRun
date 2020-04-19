@@ -6,8 +6,9 @@ public class ChaseZone : MonoBehaviour
 {
     public GameObject player;
 
-    private bool isNestedInEnemy;
-    void Start()
+    public bool isNestedInEnemy;
+    public bool canSeePlayer;
+    protected virtual void Start()
     {
         player = null;
         if(gameObject.GetComponentInParent<EnemyController>() != null)
@@ -17,13 +18,14 @@ public class ChaseZone : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void OnTriggerStay2D(Collider2D collision)
+    protected virtual void OnTriggerStay2D(Collider2D collision)
     {
        // Debug.Log(collision.gameObject.name);
         if(collision.tag.Equals("Player"))
         {
             Debug.Log("Player Detected");
             player = collision.gameObject;
+            canSeePlayer = true;
             if(isNestedInEnemy)
             {
                 gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
@@ -36,6 +38,7 @@ public class ChaseZone : MonoBehaviour
         if(collision.tag.Equals("Player"))
         {
             player = null;
+            canSeePlayer = false;
             if (isNestedInEnemy)
             {
                 gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);

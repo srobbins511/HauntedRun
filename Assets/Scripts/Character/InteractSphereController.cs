@@ -38,6 +38,10 @@ public class InteractSphereController : MonoBehaviour
         if(collision.tag.Equals("Interactable"))
         {
             collision.GetComponent<Interactable>().Interact();
+            if(collision.GetComponent<Activatable>() != null)
+            {
+                gameObject.GetComponentInParent<CharacterMovement>().Powers.Add(collision.gameObject);
+            }
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -11,6 +12,11 @@ public class GameManager : MonoBehaviour
 
     public string endLevel;
     public static GameManager Instance;
+
+    public ContactFilter2D BlockViewFilter;
+
+    public Coroutine gameTimer;
+
     void Awake()
     {
         if(Instance == null)
@@ -50,5 +56,27 @@ public class GameManager : MonoBehaviour
     public void TriggerVictory()
     {
         //Some Mechanic needed to show victory
+    }
+
+    public bool GameTimer(GameObject callingObject, float timeMax)
+    {
+        gameTimer = StartCoroutine(Timer(callingObject, timeMax));
+        return true;
+    }
+
+    
+    IEnumerator Timer(GameObject callingObject, float timeMax)
+    {
+        float time = 0;
+        while(time < timeMax)
+        {
+            time += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+    }
+
+    public bool TimerEnd(GameObject callingObject)
+    {
+        return true;
     }
 }
