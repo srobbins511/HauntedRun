@@ -45,7 +45,12 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField]
     private float offset;
-    public bool targetLocationReached;
+    public bool canMove;
+    public bool CanTarget;
+
+    public bool prevMoveDirection;
+
+    private List<RaycastHit2D> results;
     #endregion
 
 
@@ -60,17 +65,20 @@ public class CharacterMovement : MonoBehaviour
         Player = gameObject;
         TargetLocation = gameObject.transform.position;
         prevLocation = gameObject.transform.position;
-        targetLocationReached = true;
+        canMove = true;
         map = FindObjectOfType<Grid>();
         Powers = new List<GameObject>();
+        CanTarget = true;
+        results = new List<RaycastHit2D>();
     }
 
     // Update is called once per frame
     protected virtual void FixedUpdate()
     {
-        if(targetLocationReached)
+        if(CanTarget)
             checkInputs();
-        Move();
+        if(canMove)
+            Move();
         
     }
 
@@ -81,36 +89,35 @@ public class CharacterMovement : MonoBehaviour
     /// <returns></returns>
     protected virtual void checkInputs()
     {
-        
+        movingRight = 0;
+        movingUp = 0;
+        canMove = true;
+        CanTarget = false;
         movingRight = Input.GetAxisRaw("Horizontal");
         
-
         movingUp = Input.GetAxisRaw("Vertical");
 
        
         movingRight *= map.cellSize.x;
         movingUp *= map.cellSize.y;
 
-        if(movingUp != 0 || movingRight != 0)
+        if(movingUp != 0 && (movingRight = 0) == 0)
         {
-            TargetLocation = new Vector3(gameObject.transform.position.x + movingRight, gameObject.transform.position.y + movingUp, 0);
+            TargetLocation = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + movingUp, 0);
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
         
-        
-
-        if(Input.GetKey(KeyCode.LeftShift))
+        if(movingRight != 0 && (movingUp = 0) == 0)
         {
-            isSprinting = true;
+            TargetLocation = new Vector3(gameObject.transform.position.x + movingRight, gameObject.transform.position.y, 0);
+            TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
-        else
+        Vector3 direction = (TargetLocation - gameObject.transform.position);
+        if (Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude))
         {
-            isSprinting = false;
-        }
-
-        if(Input.GetButtonDown("Interact"))
-        {
-            InteractCircle.GetComponent<InteractSphereController>().Activate();
+            Debug.Log(Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude).collider.name);
+            canMove = false;
+            CanTarget = true;
         }
 
         if(Input.GetButton("Fire1"))
@@ -120,8 +127,6 @@ public class CharacterMovement : MonoBehaviour
                 Powers[0].GetComponent<Activatable>().Activate(gameObject);
             }
         }
-        targetLocationReached = false;
-        
     }
 
     /// <summary>
@@ -137,17 +142,14 @@ public class CharacterMovement : MonoBehaviour
             gameObject.transform.Translate(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
             */
         Debug.Log("Move Called");
-        gameObject.transform.position = new Vector3 (Mathf.Lerp(gameObject.transform.position.x, TargetLocation.x, MovementSpeed), Mathf.Lerp(gameObject.transform.position.y, TargetLocation.y, MovementSpeed));
-        if(Mathf.Abs(gameObject.transform.position.x- TargetLocation.x) <= .5f && Mathf.Abs(gameObject.transform.position.y - TargetLocation.y) <= .5f)
+        float yMovement = movingUp * MovementSpeed * Time.deltaTime;
+        float xMovement = movingRight * MovementSpeed * Time.deltaTime;
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x + xMovement, gameObject.transform.position.y + yMovement, 0);
+        if(Mathf.Abs(TargetLocation.x - gameObject.transform.position.x) <= .1f && Mathf.Abs(TargetLocation.y - gameObject.transform.position.y) <= .1f)
         {
-            targetLocationReached = true;
-            prevLocation = TargetLocation;
+            CanTarget = true;
+            canMove = false;
         }
-    }
-
-    public virtual void OnCollisionStay2D(Collision2D collision)
-    {
-        TargetLocation = prevLocation;
     }
 
     public virtual void onDeath()

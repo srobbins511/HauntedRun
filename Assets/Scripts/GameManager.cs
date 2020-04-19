@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     public ContactFilter2D BlockViewFilter;
 
+    public ContactFilter2D BlockMovementFilter;
+
     public Coroutine gameTimer;
 
     void Awake()

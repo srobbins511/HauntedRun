@@ -19,12 +19,10 @@ public class GhostDetection : ChaseZone
     {
         if (collision.tag.Equals("Player"))
         {
-            Debug.Log("Player Detected");
             player = collision.gameObject;
             canSeePlayer = true;
             direction = player.transform.position - gameObject.transform.position;
             RaycastHit2D r = Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude,GameManager.Instance.BlockViewFilter.layerMask);
-            Debug.Log(r.fraction);
             if(r.collider != null)
             {
                 canSeePlayer = false;
@@ -44,6 +42,5 @@ public class GhostDetection : ChaseZone
             }
             
         }
-        Debug.Log("Enemy collision detected: " + collision.gameObject.tag);
     }
 }
