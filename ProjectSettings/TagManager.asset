@@ -10,6 +10,10 @@ TagManager:
   - InteractCircle
   - Interactable
   - LeverControlled
+  - Enemy
+  - StartPos
+  - ChaseZone
+  - BlockView
   layers:
   - Default
   - TransparentFX
@@ -21,7 +25,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - BlocksView
   - 
   - 
   - 
