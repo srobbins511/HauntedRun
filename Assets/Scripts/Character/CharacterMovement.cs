@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -50,6 +51,9 @@ public class CharacterMovement : MonoBehaviour
 
     public bool prevMoveDirection;
 
+    public Coroutine protectMovement;
+    public int movementCount;
+
     private List<RaycastHit2D> results;
     #endregion
 
@@ -61,16 +65,18 @@ public class CharacterMovement : MonoBehaviour
     /// </summary>
     protected virtual void Start()
     {
+        gameObject.transform.position = map.GetCellCenterWorld(map.WorldToCell(gameObject.transform.position));
         currentPos = gameObject.transform;
         Player = gameObject;
         TargetLocation = gameObject.transform.position;
         prevLocation = gameObject.transform.position;
-        canMove = true;
+        canMove = false;
         map = FindObjectOfType<Grid>();
         Powers = new List<GameObject>();
         CanTarget = true;
         results = new List<RaycastHit2D>();
     }
+
 
     // Update is called once per frame
     protected virtual void FixedUpdate()
@@ -89,40 +95,32 @@ public class CharacterMovement : MonoBehaviour
     /// <returns></returns>
     protected virtual void checkInputs()
     {
-        movingRight = 0;
-        movingUp = 0;
         canMove = true;
-        CanTarget = false;
+
         movingRight = Input.GetAxisRaw("Horizontal");
-        
+
         movingUp = Input.GetAxisRaw("Vertical");
 
-       
         movingRight *= map.cellSize.x;
         movingUp *= map.cellSize.y;
 
-        if(movingUp != 0 && (movingRight = 0) == 0)
+        if (movingUp != 0 && (movingRight = 0) == 0)
         {
             TargetLocation = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + movingUp, 0);
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
-        
-        if(movingRight != 0 && (movingUp = 0) == 0)
+
+        if (movingRight != 0 && (movingUp = 0) == 0)
         {
             TargetLocation = new Vector3(gameObject.transform.position.x + movingRight, gameObject.transform.position.y, 0);
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
         Vector3 direction = (TargetLocation - gameObject.transform.position);
-        if (Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude))
-        {
-            Debug.Log(Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude).collider.name);
-            canMove = false;
-            CanTarget = true;
-        }
+        Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude);
 
-        if(Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
-            if(Powers.Count > 0)
+            if (Powers.Count > 0)
             {
                 Powers[0].GetComponent<Activatable>().Activate(gameObject);
             }
@@ -145,11 +143,16 @@ public class CharacterMovement : MonoBehaviour
         float yMovement = movingUp * MovementSpeed * Time.deltaTime;
         float xMovement = movingRight * MovementSpeed * Time.deltaTime;
         gameObject.transform.position = new Vector3(gameObject.transform.position.x + xMovement, gameObject.transform.position.y + yMovement, 0);
-        if(Mathf.Abs(TargetLocation.x - gameObject.transform.position.x) <= .1f && Mathf.Abs(TargetLocation.y - gameObject.transform.position.y) <= .1f)
-        {
-            CanTarget = true;
-            canMove = false;
-        }
+        Debug.Log( TargetLocation);
+        Debug.Log(" DIstance Horizontal " + Mathf.Abs(TargetLocation.x - gameObject.transform.position.x));
+        Debug.Log(" Distance Vertical " + Mathf.Abs(TargetLocation.y - gameObject.transform.position.y));
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        CanTarget = true;
+        canMove = false;
     }
 
     public virtual void onDeath()
@@ -157,5 +160,22 @@ public class CharacterMovement : MonoBehaviour
         Debug.Log("OnDeath Called");
         gameObject.transform.position = StartPos.position;
         TargetLocation = StartPos.position;
+    }
+
+    IEnumerator ProtectMovement()
+    {
+        while(true)
+        {
+            if(canMove)
+                
+                yield return new WaitForSeconds(5f);
+            
+        }
+    }
+
+    public bool countMovement()
+    {
+        movementCount++;
+        return true;
     }
 }

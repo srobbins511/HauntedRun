@@ -40,7 +40,7 @@ public class GhostDetection : ChaseZone
                 AgroTimer = StartCoroutine(LoseAgroTimer());
             }
 
-            if (canSeePlayer && gameObject.GetComponentInParent<EnemyController>().state == 0)
+            if (canSeePlayer && gameObject.GetComponentInParent<EnemyController>().state != 1)
             {
                 ChaseTimer = StartCoroutine(StartChaseTimer());
                 gameObject.GetComponentInParent<EnemyController>().state = -1;

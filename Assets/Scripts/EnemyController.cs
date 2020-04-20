@@ -42,11 +42,17 @@ public class EnemyController : MonoBehaviour
     /// </summary>
     void Start()
     {
-        state = 0;
         curPosition = gameObject.transform;
         currentWaypoint = 0;
-        numWayPoints = Waypoints.Count;
-        targetWaypoint = Waypoints[currentWaypoint];
+        if (state != -1)
+        {
+            numWayPoints = Waypoints.Count;
+            targetWaypoint = Waypoints[currentWaypoint];
+        }
+        else
+        {
+            targetWaypoint = gameObject.transform;
+        }
         WayPointSwitched = false;
         findPath();
     }
@@ -150,7 +156,7 @@ public class EnemyController : MonoBehaviour
     {
         //use the route method to get the unit vector in the direction of the waypoint
         //then multiply that vector by the enemies speed to get the incremental path
-        Path = route() * movementSpeed;
+        Path = route() * movementSpeed * Time.deltaTime;
 
         //change flag variable for if waypoints have been switched
         WayPointSwitched = false;
