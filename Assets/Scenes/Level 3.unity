@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 630269204}
   - component: {fileID: 630269203}
   - component: {fileID: 630269202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tilemap - Door 1
   m_TagString: Interactable
   m_Icon: {fileID: 0}
@@ -1482,7 +1482,7 @@ GameObject:
   - component: {fileID: 1111168614}
   - component: {fileID: 1111168613}
   - component: {fileID: 1111168612}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tilemap - Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16149,7 +16149,7 @@ GameObject:
   - component: {fileID: 1171594024}
   - component: {fileID: 1171594023}
   - component: {fileID: 1171594022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tilemap - Door 2
   m_TagString: LeverControlled
   m_Icon: {fileID: 0}

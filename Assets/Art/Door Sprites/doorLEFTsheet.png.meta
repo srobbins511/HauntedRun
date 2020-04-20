@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 5694851369550369588
     second: doorLEFTsheet_3
+  - first:
+      213: -1432415563451006141
+    second: doorLEFTsheet_0
+  - first:
+      213: -3667583702535910708
+    second: doorLEFTsheet_1
+  - first:
+      213: 4156371275606804663
+    second: doorLEFTsheet_2
+  - first:
+      213: 4188010039388669776
+    second: doorLEFTsheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,7 +71,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -102,10 +114,10 @@ TextureImporter:
       name: doorLEFTsheet_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 280
-        width: 16
-        height: 209
+        x: 0
+        y: 250
+        width: 180
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce4fc77eebe22d930800000000000000
-      internalID: 4166444002733520108
+      spriteID: 34303c162a90f1ce0800000000000000
+      internalID: -1432415563451006141
       vertices: []
       indices: 
       edges: []
@@ -123,10 +135,10 @@ TextureImporter:
       name: doorLEFTsheet_1
       rect:
         serializedVersion: 2
-        x: 261
-        y: 260
-        width: 36
-        height: 221
+        x: 180
+        y: 250
+        width: 180
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e345296b2e0be88b0800000000000000
-      internalID: -5147982836265757634
+      spriteID: ccac552ed002a1dc0800000000000000
+      internalID: -3667583702535910708
       vertices: []
       indices: 
       edges: []
@@ -144,10 +156,10 @@ TextureImporter:
       name: doorLEFTsheet_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 4
-        width: 94
-        height: 219
+        x: 0
+        y: 0
+        width: 180
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbdaab8dbb49d4150800000000000000
-      internalID: 5858502224794791355
+      spriteID: 7b84e2d57a56ea930800000000000000
+      internalID: 4156371275606804663
       vertices: []
       indices: 
       edges: []
@@ -165,19 +177,19 @@ TextureImporter:
       name: doorLEFTsheet_3
       rect:
         serializedVersion: 2
-        x: 143
+        x: 184
         y: 58
-        width: 154
-        height: 191
+        width: 112
+        height: 172
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 56, z: 0, w: 21}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43352b2e52d280f40800000000000000
-      internalID: 5694851369550369588
+      spriteID: 057088911fcce1a30800000000000000
+      internalID: 4188010039388669776
       vertices: []
       indices: 
       edges: []
