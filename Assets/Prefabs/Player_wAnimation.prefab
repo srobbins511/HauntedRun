@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6857079055591735990}
   - component: {fileID: 6857079056697336532}
   - component: {fileID: 6857079056697336533}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player_wAnimation
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ BoxCollider2D:
   m_Offset: {x: -0.03826034, y: -0.04008326}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5214339, y: 0.2266279}
     oldSize: {x: 1, y: 1}
     newSize: {x: 0.32, y: 0.32}
     adaptiveTilingThreshold: 0.5
@@ -170,13 +170,16 @@ MonoBehaviour:
   map: {fileID: 0}
   StartPos: {fileID: 0}
   currentPos: {fileID: 0}
+  Powers: []
   moved: 0
   isSprinting: 0
-  MovementSpeed: 0.1
+  MovementSpeed: 5
   SprintSpeed: 0.5
   InteractCircle: {fileID: 6857079055621454594}
   offset: 0
-  targetLocationReached: 0
+  canMove: 0
+  CanTarget: 0
+  prevMoveDirection: 0
   animator: {fileID: 6857079056697336532}
 --- !u!1 &6857079055621454594
 GameObject:
@@ -189,7 +192,7 @@ GameObject:
   - component: {fileID: 6857079055621454595}
   - component: {fileID: 6857079056448506135}
   - component: {fileID: 6857079056425887321}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: InteractBox
   m_TagString: InteractCircle
   m_Icon: {fileID: 0}
