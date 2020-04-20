@@ -6660,17 +6660,12 @@ PrefabInstance:
     - target: {fileID: 865811077698270343, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.22
+      value: 1.64
       objectReference: {fileID: 0}
     - target: {fileID: 865811077698270343, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.97
-      objectReference: {fileID: 0}
-    - target: {fileID: 865811078064398049, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
-        type: 3}
-      propertyPath: movementSpeed
-      value: 1.4
+      value: -4.1
       objectReference: {fileID: 0}
     - target: {fileID: 865811078064398062, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
@@ -6706,12 +6701,12 @@ PrefabInstance:
     - target: {fileID: 865811079263169645, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.34
+      value: 14.3
       objectReference: {fileID: 0}
     - target: {fileID: 865811079263169645, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.53
+      value: 9.73
       objectReference: {fileID: 0}
     - target: {fileID: 865811079263169645, guid: b7238f82c87bf0b4fa11b2f18ca6cbc3,
         type: 3}
@@ -7812,7 +7807,7 @@ GameObject:
   - component: {fileID: 368904315}
   m_Layer: 0
   m_Name: Chase Zone
-  m_TagString: Untagged
+  m_TagString: ChaseZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38309,12 +38304,12 @@ PrefabInstance:
     - target: {fileID: 1779402975685239198, guid: 075e7ebfe81f548238dca484706c26cb,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.99
+      value: 3.83
       objectReference: {fileID: 0}
     - target: {fileID: 1779402975685239198, guid: 075e7ebfe81f548238dca484706c26cb,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.19
+      value: 9.87
       objectReference: {fileID: 0}
     - target: {fileID: 1779402975685239198, guid: 075e7ebfe81f548238dca484706c26cb,
         type: 3}
