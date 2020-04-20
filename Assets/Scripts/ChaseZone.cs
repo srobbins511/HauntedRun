@@ -8,6 +8,7 @@ public class ChaseZone : MonoBehaviour
 
     public bool isNestedInEnemy;
     public bool canSeePlayer;
+    public Transform playerLocation;
     protected virtual void Start()
     {
         player = null;
@@ -25,6 +26,7 @@ public class ChaseZone : MonoBehaviour
         {
             Debug.Log("Player Detected");
             player = collision.gameObject;
+            playerLocation = player.transform;
             canSeePlayer = true;
             if(isNestedInEnemy)
             {
@@ -33,7 +35,7 @@ public class ChaseZone : MonoBehaviour
         }
     }
 
-    public void OnTriggerExit2D(Collider2D collision)
+    protected virtual void OnTriggerExit2D(Collider2D collision)
     {
         if(collision.tag.Equals("Player"))
         {

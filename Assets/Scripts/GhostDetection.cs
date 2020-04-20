@@ -6,7 +6,16 @@ public class GhostDetection : ChaseZone
 {
     public GameObject wall;
     public Vector3 direction;
+    
     public List<RaycastHit2D> results;
+
+    public float disengageTime;
+
+
+    public float startChaseDelay;
+
+    private Coroutine AgroTimer;
+    private Coroutine ChaseTimer;
 
 
     protected override void Start()
@@ -19,28 +28,62 @@ public class GhostDetection : ChaseZone
     {
         if (collision.tag.Equals("Player"))
         {
+            if (AgroTimer != null) StopCoroutine(AgroTimer);
             player = collision.gameObject;
+            playerLocation = player.transform;
             canSeePlayer = true;
             direction = player.transform.position - gameObject.transform.position;
             RaycastHit2D r = Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude,GameManager.Instance.BlockViewFilter.layerMask);
-            if(r.collider != null)
+            if(r.collider != null && gameObject.GetComponentInParent<EnemyController>().state == 1)
             {
                 canSeePlayer = false;
-            }
-            else
-            {
-                canSeePlayer = true;
+                AgroTimer = StartCoroutine(LoseAgroTimer());
             }
 
-
-            if (canSeePlayer)
+            if (canSeePlayer && gameObject.GetComponentInParent<EnemyController>().state == 0)
             {
-                if (isNestedInEnemy)
-                {
-                    gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
-                }
+                ChaseTimer = StartCoroutine(StartChaseTimer());
+                gameObject.GetComponentInParent<EnemyController>().state = -1;
             }
             
         }
+    }
+
+    protected override void OnTriggerExit2D(Collider2D collision)
+    {
+        canSeePlayer = false;
+        AgroTimer = StartCoroutine(LoseAgroTimer());
+    }
+
+    IEnumerator LoseAgroTimer()
+    {
+        if(ChaseTimer != null)StopCoroutine(ChaseTimer);
+        float time = 0;
+        while(!canSeePlayer && time < disengageTime)
+        {
+            time += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+        if(time >= disengageTime)
+        {
+            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+            player = null;
+        }
+    }
+    IEnumerator StartChaseTimer()
+    {
+        if(AgroTimer != null)StopCoroutine(AgroTimer);
+        float time = 0;
+        GetComponentInChildren<SpriteRenderer>().enabled = true;
+        while (canSeePlayer && time < startChaseDelay)
+        {
+            time += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+        if (time >= startChaseDelay)
+        {
+            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+        }
+        GetComponentInChildren<SpriteRenderer>().enabled = false;
     }
 }

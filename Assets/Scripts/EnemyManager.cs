@@ -26,6 +26,8 @@ public class EnemyManager : MonoBehaviour
                 switch (e.GetComponent<EnemyController>().state)
                 {
                     //default movement option
+                    case -1:
+                        break;
                     case 0:
                         e.GetComponent<EnemyController>().Move();
                         break;
