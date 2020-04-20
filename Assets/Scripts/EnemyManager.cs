@@ -44,4 +44,9 @@ public class EnemyManager : MonoBehaviour
     {
         return Enemies[0].GetComponent<EnemyController>().targetWaypoint != null;
     }
+
+    public void FindEnemies()
+    {
+        Enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
+    }
 }

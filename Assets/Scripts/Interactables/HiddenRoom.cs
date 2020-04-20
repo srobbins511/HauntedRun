@@ -22,5 +22,6 @@ public class HiddenRoom : Interactable
     {
         Entrance.SetActive(false);
         Room.SetActive(true);
+        GameManager.Instance.enemyManager.FindGhosts();
     }
 }

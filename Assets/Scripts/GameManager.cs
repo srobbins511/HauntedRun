@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
 
     public Coroutine gameTimer;
 
+    public EnemyManager enemyManager;
+
     void Awake()
     {
         if(Instance == null)
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         Player = GameObject.FindGameObjectWithTag("Player");
+        enemyManager = FindObjectOfType<EnemyManager>();
     }
 
     public void TriggerDeath()

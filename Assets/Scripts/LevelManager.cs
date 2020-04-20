@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour
             SceneManager.LoadScene(NextLevel);
         }
     }
-    private bool CheckKeys()
+    public bool CheckKeys()
     {
         return keyIndex >= KeyMax;
     }
