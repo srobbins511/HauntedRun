@@ -255,7 +255,8 @@ GameObject:
   - component: {fileID: 53360435}
   - component: {fileID: 53360437}
   - component: {fileID: 53360436}
-  m_Layer: 0
+  - component: {fileID: 53360438}
+  m_Layer: 10
   m_Name: HR Brick walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,6 +522,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!19719996 &53360438
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53360434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1001 &57548974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17745,6 +17762,21 @@ PrefabInstance:
       propertyPath: startChaseDelay
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7470158790549168639, guid: dd35e1d09a76d254fb93d2d4bbc6b683,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.348
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470158790549168639, guid: dd35e1d09a76d254fb93d2d4bbc6b683,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437563813158161127, guid: dd35e1d09a76d254fb93d2d4bbc6b683,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd35e1d09a76d254fb93d2d4bbc6b683, type: 3}
 --- !u!1001 &914908649
@@ -26135,7 +26167,7 @@ GameObject:
   - component: {fileID: 1246925049}
   - component: {fileID: 1246925051}
   - component: {fileID: 1246925050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HR Door 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26782,7 +26814,7 @@ GameObject:
   - component: {fileID: 1465121496}
   - component: {fileID: 1465121495}
   - component: {fileID: 1465121497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HR Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27750,7 +27782,7 @@ TilemapCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_UsedByComposite: 1
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
@@ -112661,7 +112693,7 @@ GameObject:
   - component: {fileID: 1674341467}
   - component: {fileID: 1674341469}
   - component: {fileID: 1674341468}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: HR Door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114126,6 +114158,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2027487064}
   - component: {fileID: 2027487063}
+  - component: {fileID: 2027487066}
+  - component: {fileID: 2027487065}
   m_Layer: 0
   m_Name: Hidden Room
   m_TagString: LeverControlled
@@ -114170,6 +114204,57 @@ Transform:
   m_Father: {fileID: 364454658}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &2027487065
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027487062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths:
+    - - {x: -21.000029, y: 2}
+      - {x: -21.000029, y: 3}
+      - {x: -33, y: 3.0000293}
+      - {x: -32.999973, y: 66}
+      - {x: -21, y: 66.00003}
+      - {x: -21.000029, y: 68}
+      - {x: -34, y: 67.99997}
+      - {x: -33.999973, y: 2}
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+--- !u!50 &2027487066
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027487062}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1001 &2033537848
 PrefabInstance:
   m_ObjectHideFlags: 0
