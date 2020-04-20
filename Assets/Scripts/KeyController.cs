@@ -16,8 +16,12 @@ public class KeyController : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        collected = true;
-        LevelManager.GetComponent<LevelManager>().OnKeyCollect();
-        Destroy(gameObject);
+        if(other.tag.Equals("Player"))
+        {
+            collected = true;
+            LevelManager.GetComponent<LevelManager>().OnKeyCollect();
+            Destroy(gameObject);
+        }
+
     }
 }
