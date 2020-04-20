@@ -78,6 +78,11 @@ public class EnemyController : MonoBehaviour
     /// <returns></returns>
     public void Move()
     {
+        if(Waypoints.Count == 0)
+        {
+            return;
+        }
+
         //checks to see if the waypoints have changed by looking at flag variable
         if (WayPointSwitched)
         {
