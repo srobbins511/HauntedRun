@@ -147,9 +147,6 @@ public class CharacterMovement : MonoBehaviour
         float yMovement = movingUp * MovementSpeed * Time.deltaTime;
         float xMovement = movingRight * MovementSpeed * Time.deltaTime;
         gameObject.transform.position = new Vector3(gameObject.transform.position.x + xMovement, gameObject.transform.position.y + yMovement, 0);
-        Debug.Log( TargetLocation);
-        Debug.Log(" DIstance Horizontal " + Mathf.Abs(TargetLocation.x - gameObject.transform.position.x));
-        Debug.Log(" Distance Vertical " + Mathf.Abs(TargetLocation.y - gameObject.transform.position.y));
         
     }
 

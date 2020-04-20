@@ -8,6 +8,8 @@ public class HUDManager : MonoBehaviour
 
     public Text NumLives;
 
+    public GameObject UITextInterface;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +20,10 @@ public class HUDManager : MonoBehaviour
     void Update()
     {
         NumLives.text = "Life Count: " + GameManager.Instance.numLives;
+    }
+
+    public void WriteTextToPlayer(string text, float time, uint textWriteSpeed)
+    {
+        UITextInterface.GetComponent<UITextInterfaceController>().WriteToScreen(text, time, textWriteSpeed);
     }
 }

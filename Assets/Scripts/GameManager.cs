@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
 
     public EnemyManager enemyManager;
 
+    public GameObject HUD;
+
     void Awake()
     {
         if(Instance == null)
@@ -34,6 +36,7 @@ public class GameManager : MonoBehaviour
         }
         Player = GameObject.FindGameObjectWithTag("Player");
         enemyManager = FindObjectOfType<EnemyManager>();
+        HUD = GameObject.FindGameObjectWithTag("HUD");
     }
 
     public void TriggerDeath()
@@ -83,5 +86,10 @@ public class GameManager : MonoBehaviour
     public bool TimerEnd(GameObject callingObject)
     {
         return true;
+    }
+
+    public void WriteToPlayer(string text, float time, uint textWriteSpeed)
+    {
+        HUD.GetComponent<HUDManager>().WriteTextToPlayer(text, time, textWriteSpeed);
     }
 }
