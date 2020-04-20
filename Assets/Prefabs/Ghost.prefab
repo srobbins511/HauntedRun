@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 865811078064398062}
   - component: {fileID: 865811078064398049}
   - component: {fileID: 865811078064398048}
+  - component: {fileID: 5331122484921748435}
   m_Layer: 0
   m_Name: Ghost Stand in
   m_TagString: Enemy
@@ -132,7 +133,7 @@ MonoBehaviour:
   currentWaypoint: 0
   targetWaypoint: {fileID: 0}
   state: 0
-  movementSpeed: 0.025
+  movementSpeed: 1.4
 --- !u!70 &865811078064398048
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -149,6 +150,27 @@ CapsuleCollider2D:
   m_Offset: {x: 0.05065996, y: 0.03346302}
   m_Size: {x: 0.30688497, y: 0.5971519}
   m_Direction: 0
+--- !u!50 &5331122484921748435
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865811078064398060}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &865811079252586916
 GameObject:
   m_ObjectHideFlags: 0
