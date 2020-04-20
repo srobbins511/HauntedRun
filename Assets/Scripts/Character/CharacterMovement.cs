@@ -116,7 +116,11 @@ public class CharacterMovement : MonoBehaviour
             TargetLocation = map.GetCellCenterWorld(map.WorldToCell(TargetLocation));
         }
         Vector3 direction = (TargetLocation - gameObject.transform.position);
-        Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude);
+        RaycastHit2D r = Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude);
+        if(r.collider != null && r.collider.tag.Equals("Interactable"))
+        {
+            r.collider.GetComponent<Interactable>().Interact();
+        }
 
         if (Input.GetButton("Fire1"))
         {
