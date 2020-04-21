@@ -16,12 +16,31 @@ public class UITextInterfaceController : MonoBehaviour
 
     public List<UITextObj> Backlog;
 
+    public bool MultiplePages;
+
     private const float loadTime = 1f;
+
+    public bool FinalPage;
     void Start()
     {
         Text.GetComponent<TextMeshProUGUI>().SetText("");
         backgroundImage.color = new Color(backgroundImage.color.r, backgroundImage.color.g, backgroundImage.color.b, 0f);
         Backlog = new List<UITextObj>();
+        MultiplePages = false;
+        FinalPage = false;
+    }
+
+    public void Update()
+    {
+        Debug.Log(Text.GetComponent<TextMeshProUGUI>().textInfo.pageCount);
+        if(MultiplePages)
+        {
+            if(Input.GetButtonDown("Interact"))
+            {
+                Debug.Log("Switch Called");
+                SwitchPage();
+            }
+        }
     }
 
     public void WriteToScreen(string textGiven, float time, uint textWriteSpeed)
@@ -62,6 +81,13 @@ public class UITextInterfaceController : MonoBehaviour
         LoadTimer = null;
     }
 
+    public void SwitchPage()
+    {
+        Text.GetComponent<TextMeshProUGUI>().pageToDisplay = ++Text.GetComponent<TextMeshProUGUI>().pageToDisplay;
+        if (Text.GetComponent<TextMeshProUGUI>().textInfo.pageCount == Text.GetComponent<TextMeshProUGUI>().pageToDisplay)
+            FinalPage = true;
+    }
+
     IEnumerator Timer(string tempTextGiven, float tempTimeGiven, uint tempTextWriteSpeed)
     {
         string textGiven = tempTextGiven;
@@ -87,9 +113,25 @@ public class UITextInterfaceController : MonoBehaviour
                 tempText += c.ToString();
                 Text.GetComponent<TextMeshProUGUI>().SetText(tempText);
                 for (int i = 0; i <= textWriteSpeed; i++)
+                {
+                    if (Text.GetComponent<TextMeshProUGUI>().textInfo.pageCount > 1)
+                    {
+                        MultiplePages = true;
+                    }
                     yield return new WaitForEndOfFrame();
+                }
+                    
             }
 
+            if(MultiplePages)
+            {
+                while(!FinalPage)
+                {
+                    yield return new WaitForEndOfFrame();
+                }
+            }
+
+            
             while (time < timeGiven)
             {
                 time += Time.deltaTime;
@@ -105,6 +147,9 @@ public class UITextInterfaceController : MonoBehaviour
                 textWriteSpeed = temp.textWriteSpeed;
                 tempText = "";
                 Text.GetComponent<TextMeshProUGUI>().SetText("");
+                MultiplePages = false;
+                Text.GetComponent<TextMeshProUGUI>().pageToDisplay = 1;
+                FinalPage = false;
             }
 
         } while (Backlog.Count != 0);
