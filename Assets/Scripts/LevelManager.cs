@@ -17,9 +17,10 @@ public class LevelManager : MonoBehaviour
     private int KeyMax;
 
 
-    public void Start()
+    public void LateStart()
     {
         KeyMax = Keys.Count;
+        GameManager.Instance.Instatiate();
     }
 
     public void OnKeyCollect()
@@ -31,9 +32,10 @@ public class LevelManager : MonoBehaviour
 
     public void OnComplete()
     {
+        Debug.Log("Called");
         if(CheckKeys())
         {
-            SceneManager.LoadScene(NextLevel);
+            GameManager.Instance.LoadLevel(NextLevel);
         }
     }
     public bool CheckKeys()

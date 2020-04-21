@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -22,6 +23,10 @@ public class GameManager : MonoBehaviour
     public EnemyManager enemyManager;
 
     public GameObject HUD;
+
+    public Camera MainCamera;
+
+    public int LevelCount = 0;
 
     void Awake()
     {
@@ -91,5 +96,30 @@ public class GameManager : MonoBehaviour
     public void WriteToPlayer(string text, float time, uint textWriteSpeed)
     {
         HUD.GetComponent<HUDManager>().WriteTextToPlayer(text, time, textWriteSpeed);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void Startgame()
+    {
+        SceneManager.LoadScene(1);
+        LevelCount++;
+    }
+
+    public void LoadLevel(string LevelName)
+    {
+        SceneManager.LoadScene(LevelName);
+    }
+
+    
+
+    public void Instatiate()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player");
+        enemyManager = FindObjectOfType<EnemyManager>();
+        HUD = GameObject.FindGameObjectWithTag("HUD");
     }
 }
