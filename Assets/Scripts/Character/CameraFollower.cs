@@ -13,9 +13,9 @@ public class CameraFollower : MonoBehaviour
 
     public void Start()
     {
-        playerLocation = GameManager.Instance.Player.transform;
         gameObject.GetComponent<Camera>().orthographic = true;
         size = gameObject.GetComponent<Camera>().orthographicSize;
+        playerLocation = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
@@ -39,5 +39,10 @@ public class CameraFollower : MonoBehaviour
         {
             size = gameObject.GetComponent<Camera>().orthographicSize -= 10 * Input.GetAxis("Mouse ScrollWheel");
         }
+    }
+
+    public void FindPlayer()
+    {
+        
     }
 }

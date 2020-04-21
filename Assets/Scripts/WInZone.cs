@@ -14,7 +14,7 @@ public class WInZone : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Trigger Enter");
-        LevelManager.GetComponent<LevelManager>().OnComplete();
+        if(other.tag.Equals("Player"))
+            LevelManager.GetComponent<LevelManager>().OnComplete();
     }
 }
