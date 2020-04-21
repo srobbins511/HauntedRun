@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 9997
+  controlID: 60
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 10073
+  controlID: 61
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 10074
+  controlID: 107
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,8 +321,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -456.5
     m_HBaseRangeMax: 456.5
-    m_VBaseRangeMin: -236.5
-    m_VBaseRangeMax: 236.5
+    m_VBaseRangeMin: -247
+    m_VBaseRangeMax: 247
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -339,11 +339,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 913
-      height: 473
+      height: 494
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 456.5, y: 236.5}
+    m_Translation: {x: 456.5, y: 247}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -351,9 +351,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -456.5
-      y: -236.5
+      y: -247
       width: 913
-      height: 473
+      height: 494
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 913, y: 494}
@@ -391,23 +391,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c400100
-      m_LastClickedID: 81948
-      m_ExpandedIDs: ee51fffffc51ffffbc58ffffd86affffa87effffd283ffffc48affffd28affffe48bfffff28bffff008cffff188cffffa28cffffb28cffff4293fffff098ffff289affffbaa0ffff64a8ffffe2a8ffffeeb3ffff78b7ffff8cb7ffff0abbffff18bbffff30bbffffaabcffff2ec4ffffaac4ffffdeccffff6cd3ffff98d5ffff06d9ffff9cdbffffaaf2ffff36faffff56faffff6cfbffffb28a00007cb0000034f00000faf10000
+      m_SelectedIDs: 062d0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2cfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: HUD
-        m_OriginalName: HUD
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -13314
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.36608312, y: 24.23464, z: -4.8874655}
     speed: 2
-    m_Value: {x: 0.25655463, y: 24.02319, z: -4.830221}
+    m_Value: {x: 0.23064739, y: 6.081, z: -3.4238281}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 15.205678
     speed: 2
-    m_Value: 15.922176
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -525,7 +525,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.04678799, y: 0.014081551, z: -0.0006590997, w: -0.99880797}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -597,20 +597,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 55
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: 55
   m_LastProjectPath: C:\Users\dude1\Desktop\HauntedRun
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1e3b0000
-    m_LastClickedID: 15134
-    m_ExpandedIDs: 00000000183b00001e3b00005e3b000000ca9a3b
+    m_SelectedIDs: 8c3b0000
+    m_LastClickedID: 15244
+    m_ExpandedIDs: 00000000623b0000643b0000663b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,7 +638,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000183b00001e3b00005e3b000000ca9a3b
+    m_ExpandedIDs: 00000000623b0000643b0000663b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
