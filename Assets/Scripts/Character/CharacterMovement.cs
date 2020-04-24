@@ -54,6 +54,8 @@ public class CharacterMovement : MonoBehaviour
     public Coroutine protectMovement;
     public int movementCount;
 
+    public int NumLives;
+
     private List<RaycastHit2D> results;
     #endregion
 

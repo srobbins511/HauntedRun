@@ -180,6 +180,8 @@ MonoBehaviour:
   canMove: 0
   CanTarget: 0
   prevMoveDirection: 0
+  movementCount: 0
+  NumLives: 3
   animator: {fileID: 6857079056697336532}
 --- !u!1 &6857079055621454594
 GameObject:

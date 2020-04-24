@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Character\CharacterMovement_AnimationTest.cs" />
     <Compile Include="Assets\Scripts\Character\InteractSphereController.cs" />
     <Compile Include="Assets\Scripts\ChaseZone.cs" />
+    <Compile Include="Assets\Scripts\DynamicLayerTile.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Scripts\Interactables\PowerUp.cs" />
     <Compile Include="Assets\Scripts\KeyController.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\UITextInterfaceController.cs" />
     <Compile Include="Assets\Scripts\UITextObj.cs" />
     <Compile Include="Assets\Scripts\WInZone.cs" />

@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         Player = GameObject.FindGameObjectWithTag("Player");
+        if(Player != null)
+            numLives = Player.GetComponent<CharacterMovement>().NumLives;
         enemyManager = FindObjectOfType<EnemyManager>();
         HUD = GameObject.FindGameObjectWithTag("HUD");
     }
@@ -64,6 +66,11 @@ public class GameManager : MonoBehaviour
         {
             Application.Quit();
         }
+        if(SceneManager.GetActiveScene().buildIndex >= 3 && Input.GetButtonDown("Interact"))
+        {
+            SceneManager.LoadScene(0);
+        }
+
     }
     //
     public void TriggerVictory()
@@ -106,6 +113,7 @@ public class GameManager : MonoBehaviour
     public void Startgame()
     {
         SceneManager.LoadScene(1);
+        GameManager.Instance.Awake();
         LevelCount++;
     }
 
