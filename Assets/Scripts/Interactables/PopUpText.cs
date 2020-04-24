@@ -10,6 +10,8 @@ public class PopUpText : Interactable
 
     public uint textWriteSpeed;
 
+    public bool playOnce;
+
     public Coroutine timer;
 
 
@@ -23,8 +25,11 @@ public class PopUpText : Interactable
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
         gameObject.GetComponent<Collider2D>().enabled = false;
-        yield return new WaitForSeconds(TimeShown);
-        gameObject.GetComponent<SpriteRenderer>().enabled = true;
-        gameObject.GetComponent<Collider2D>().enabled = true;
+        if (!playOnce)
+        {
+            yield return new WaitForSeconds(TimeShown);
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            gameObject.GetComponent<Collider2D>().enabled = true;
+        }
     }
 }
