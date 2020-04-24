@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UITextObj : ScriptableObject
+public class UITextObj 
 {
     public string text;
     public float time;

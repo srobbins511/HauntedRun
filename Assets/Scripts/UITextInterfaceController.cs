@@ -32,7 +32,6 @@ public class UITextInterfaceController : MonoBehaviour
 
     public void Update()
     {
-        Debug.Log(Text.GetComponent<TextMeshProUGUI>().textInfo.pageCount);
         if(MultiplePages)
         {
             if(Input.GetButtonDown("Interact"))
@@ -52,13 +51,15 @@ public class UITextInterfaceController : MonoBehaviour
         else
         {
             UITextObj temp = new UITextObj(textGiven, time, textWriteSpeed);
+            Debug.Log(CheckBacklog(temp));
             if(!CheckBacklog(temp))
-                Backlog.Add(temp);
+                Backlog.Add(new UITextObj(textGiven, time, textWriteSpeed));
         }
     }
 
     public bool CheckBacklog(UITextObj temp)
     {
+        //Debug.Log(Backlog.Count);
         if(Backlog.Count == 0)
         {
             return false;
@@ -90,10 +91,12 @@ public class UITextInterfaceController : MonoBehaviour
 
     IEnumerator Timer(string tempTextGiven, float tempTimeGiven, uint tempTextWriteSpeed)
     {
+        UITextObj temp;
         string textGiven = tempTextGiven;
         float timeGiven = tempTimeGiven;
         uint textWriteSpeed = tempTextWriteSpeed;
         string tempText = "";
+        bool loop = false;
 
         float time = 0f;
         while (time < loadTime)
@@ -105,7 +108,7 @@ public class UITextInterfaceController : MonoBehaviour
 
         do
         {
-            
+            loop = false;
             time = 0f;
             tempText = Text.GetComponent<TextMeshProUGUI>().text;
             foreach (char c in textGiven)
@@ -137,10 +140,12 @@ public class UITextInterfaceController : MonoBehaviour
                 time += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             }
-
-            if(Backlog.Count != 0)
+            Debug.Log(Backlog.Count);
+            if(Backlog.Count > 0)
             {
-                UITextObj temp = Backlog[0];
+                loop = true;
+                Debug.Log("Enetered");
+                temp = Backlog[0];
                 Backlog.RemoveAt(0);
                 textGiven = temp.text;
                 timeGiven = temp.time;
@@ -152,7 +157,7 @@ public class UITextInterfaceController : MonoBehaviour
                 FinalPage = false;
             }
 
-        } while (Backlog.Count != 0);
+        } while (loop);
         Deactivate();
     }
     

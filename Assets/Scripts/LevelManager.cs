@@ -17,9 +17,10 @@ public class LevelManager : MonoBehaviour
     private int KeyMax;
 
 
-    public void LateStart()
+    public void Start()
     {
-        KeyMax = Keys.Count;
+        Keys = new List<GameObject>(GameObject.FindGameObjectsWithTag("Collectable"));
+        KeyMax = GameObject.FindGameObjectsWithTag("Collectable").Length;
         GameManager.Instance.Instatiate();
     }
 
@@ -33,6 +34,7 @@ public class LevelManager : MonoBehaviour
     public void OnComplete()
     {
         Debug.Log("Called");
+        Debug.Log(CheckKeys());
         if(CheckKeys())
         {
             GameManager.Instance.LoadLevel(NextLevel);
