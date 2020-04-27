@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour
     [Tooltip("The list of waypoints that the enemy will move too, Enemies will go to each waypoint in order, Waypoints should not be children of the GameObject this script is attached too")]
     private List<Transform> Waypoints;
 
-    private Transform curPosition;
+    public Transform curPosition;
 
     public int currentWaypoint;
 
