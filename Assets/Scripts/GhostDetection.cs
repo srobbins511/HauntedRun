@@ -34,12 +34,13 @@ public class GhostDetection : ChaseZone
             canSeePlayer = true;
             direction = player.transform.position - gameObject.transform.position;
             RaycastHit2D r = Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude,GameManager.Instance.BlockViewFilter.layerMask);
-            if(r.collider != null && gameObject.GetComponentInParent<EnemyController>().state == 1)
+            Debug.Log(r.collider.name);
+            if(r.collider != null && (gameObject.GetComponentInParent<EnemyController>().state == 1 || gameObject.GetComponentInParent<EnemyController>().state == 0) )
             {
                 canSeePlayer = false;
                 AgroTimer = StartCoroutine(LoseAgroTimer());
             }
-
+            Debug.Log(canSeePlayer);
             if (canSeePlayer && gameObject.GetComponentInParent<EnemyController>().state != 1)
             {
                 ChaseTimer = StartCoroutine(StartChaseTimer());
