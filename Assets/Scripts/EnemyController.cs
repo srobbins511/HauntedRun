@@ -24,6 +24,8 @@ public class EnemyController : MonoBehaviour
 
     public int state;
 
+    Animator animator;
+
     [SerializeField]
     [Tooltip("How fast the enemy will move, will be a very low value greater than zero")]
     private float movementSpeed;
@@ -187,5 +189,42 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    private void FixedUpdate()
+    {
+
+        #region Updated States
+
+        if ((Path.x != 0 || Path.y != 0) && state != -1)
+        {
+            animator.SetBool("IsMoving", true);
+        }
+        else
+        {
+            animator.SetBool("IsMoving", false);
+        }
+
+        if (Path.x > 0)
+        {
+            animator.SetBool("IsMovingRight", true);
+            animator.SetBool("IsMovingLeft", false);
+        }
+        else if (Path.x < 0)
+        {
+            animator.SetBool("IsMovingLeft", true);
+            animator.SetBool("IsMovingRight", false);
+        }
+
+        if (Path.y > 0)
+        {
+            animator.SetBool("IsMovingUp", true);
+            animator.SetBool("IsMovingDown", false);
+        }
+        else if (Path.y < 0)
+        {
+            animator.SetBool("IsMovingUp", false);
+            animator.SetBool("IsMovingDown", true);
+        }
+        #endregion
+    }
     #endregion
 }
