@@ -24,7 +24,7 @@ public class EnemyController : MonoBehaviour
 
     public int state;
 
-    Animator animator;
+    public Animator animator;
 
     [SerializeField]
     [Tooltip("How fast the enemy will move, will be a very low value greater than zero")]
@@ -56,6 +56,7 @@ public class EnemyController : MonoBehaviour
             targetWaypoint = gameObject.transform;
         }
         WayPointSwitched = false;
+        animator = GetComponentInParent<Animator>();
         findPath();
     }
 
@@ -189,6 +190,8 @@ public class EnemyController : MonoBehaviour
         }
     }
 
+    /*
+     * I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
     private void FixedUpdate()
     {
 
@@ -226,5 +229,6 @@ public class EnemyController : MonoBehaviour
         }
         #endregion
     }
+    */
     #endregion
 }
