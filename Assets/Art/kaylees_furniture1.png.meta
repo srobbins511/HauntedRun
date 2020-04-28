@@ -1,0 +1,6011 @@
+fileFormatVersion: 2
+guid: c4ba9a9f309b74d8d83af5cf9dd47967
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3211730416956235598
+    second: kaylees_furniture1_0
+  - first:
+      213: -6781370815407597790
+    second: kaylees_furniture1_1
+  - first:
+      213: 3620977255543441730
+    second: kaylees_furniture1_2
+  - first:
+      213: 9180701894856819946
+    second: kaylees_furniture1_3
+  - first:
+      213: 3944580219796827715
+    second: kaylees_furniture1_4
+  - first:
+      213: 2715856559281408194
+    second: kaylees_furniture1_5
+  - first:
+      213: 5444788233691626334
+    second: kaylees_furniture1_6
+  - first:
+      213: 4265097740097506221
+    second: kaylees_furniture1_7
+  - first:
+      213: -5132834549494541646
+    second: kaylees_furniture1_8
+  - first:
+      213: 1774333240124458723
+    second: kaylees_furniture1_9
+  - first:
+      213: -7747027719469409984
+    second: kaylees_furniture1_10
+  - first:
+      213: -8019114168026966653
+    second: kaylees_furniture1_11
+  - first:
+      213: -7621856610838439510
+    second: kaylees_furniture1_12
+  - first:
+      213: 7153079219161722945
+    second: kaylees_furniture1_13
+  - first:
+      213: 6998206145940417906
+    second: kaylees_furniture1_14
+  - first:
+      213: 8819496454745426570
+    second: kaylees_furniture1_15
+  - first:
+      213: -4197654292416296021
+    second: kaylees_furniture1_16
+  - first:
+      213: 2211735171739553292
+    second: kaylees_furniture1_17
+  - first:
+      213: 6934007541122134962
+    second: kaylees_furniture1_18
+  - first:
+      213: 3349656578280268187
+    second: kaylees_furniture1_19
+  - first:
+      213: -5084487781732018514
+    second: kaylees_furniture1_20
+  - first:
+      213: -743146144174928900
+    second: kaylees_furniture1_21
+  - first:
+      213: -4734212093655903778
+    second: kaylees_furniture1_22
+  - first:
+      213: -7507386014302419030
+    second: kaylees_furniture1_23
+  - first:
+      213: 7906281530610624526
+    second: kaylees_furniture1_24
+  - first:
+      213: -1371723624888843783
+    second: kaylees_furniture1_25
+  - first:
+      213: 8864169493951946048
+    second: kaylees_furniture1_26
+  - first:
+      213: 8893665783923945920
+    second: kaylees_furniture1_27
+  - first:
+      213: 6896972770036081808
+    second: kaylees_furniture1_28
+  - first:
+      213: -5285259121382776408
+    second: kaylees_furniture1_29
+  - first:
+      213: -8386647753184508490
+    second: kaylees_furniture1_30
+  - first:
+      213: 8203415788551533476
+    second: kaylees_furniture1_31
+  - first:
+      213: 7432340324871499230
+    second: kaylees_furniture1_32
+  - first:
+      213: 1918541308964702653
+    second: kaylees_furniture1_33
+  - first:
+      213: -8282009914147918217
+    second: kaylees_furniture1_34
+  - first:
+      213: -8920244156613431581
+    second: kaylees_furniture1_35
+  - first:
+      213: -3157181140170304957
+    second: kaylees_furniture1_36
+  - first:
+      213: 6316336570502951473
+    second: kaylees_furniture1_37
+  - first:
+      213: -7846177545636349729
+    second: kaylees_furniture1_38
+  - first:
+      213: -4100162145768434228
+    second: kaylees_furniture1_39
+  - first:
+      213: 5893650885510492272
+    second: kaylees_furniture1_40
+  - first:
+      213: -4756754976927094947
+    second: kaylees_furniture1_41
+  - first:
+      213: -1320174494580064316
+    second: kaylees_furniture1_42
+  - first:
+      213: -7689896754041524977
+    second: kaylees_furniture1_43
+  - first:
+      213: -217941262175015417
+    second: kaylees_furniture1_44
+  - first:
+      213: 149822108191528500
+    second: kaylees_furniture1_45
+  - first:
+      213: 7402920854378793804
+    second: kaylees_furniture1_46
+  - first:
+      213: -7299588746878890237
+    second: kaylees_furniture1_47
+  - first:
+      213: 4749376245653469113
+    second: kaylees_furniture1_48
+  - first:
+      213: -5584975212634978619
+    second: kaylees_furniture1_49
+  - first:
+      213: 1491600297888073490
+    second: kaylees_furniture1_50
+  - first:
+      213: -115477161404758815
+    second: kaylees_furniture1_51
+  - first:
+      213: 4204855971466619175
+    second: kaylees_furniture1_52
+  - first:
+      213: -4720086497083845442
+    second: kaylees_furniture1_53
+  - first:
+      213: 1471133451547033474
+    second: kaylees_furniture1_54
+  - first:
+      213: -2568351544349224868
+    second: kaylees_furniture1_55
+  - first:
+      213: -8604513250846506898
+    second: kaylees_furniture1_56
+  - first:
+      213: -2480518976491638358
+    second: kaylees_furniture1_57
+  - first:
+      213: 8942207831490333969
+    second: kaylees_furniture1_58
+  - first:
+      213: 8982702598735645470
+    second: kaylees_furniture1_59
+  - first:
+      213: -1944714012642449630
+    second: kaylees_furniture1_60
+  - first:
+      213: 798897207100569070
+    second: kaylees_furniture1_61
+  - first:
+      213: -6596062042278879039
+    second: kaylees_furniture1_62
+  - first:
+      213: -1394845764233853324
+    second: kaylees_furniture1_63
+  - first:
+      213: -7912385824807234227
+    second: kaylees_furniture1_64
+  - first:
+      213: 7959278688239392748
+    second: kaylees_furniture1_65
+  - first:
+      213: -4225600402046285286
+    second: kaylees_furniture1_66
+  - first:
+      213: -1736234233268114250
+    second: kaylees_furniture1_67
+  - first:
+      213: -3427732222583994688
+    second: kaylees_furniture1_68
+  - first:
+      213: 6373306696446426984
+    second: kaylees_furniture1_69
+  - first:
+      213: -9187372666333478162
+    second: kaylees_furniture1_70
+  - first:
+      213: 9009062720799744034
+    second: kaylees_furniture1_71
+  - first:
+      213: 7207284730494296553
+    second: kaylees_furniture1_72
+  - first:
+      213: -3680476164022273178
+    second: kaylees_furniture1_73
+  - first:
+      213: 1476244621526077798
+    second: kaylees_furniture1_74
+  - first:
+      213: -6397140861795886307
+    second: kaylees_furniture1_75
+  - first:
+      213: -8896608392904193266
+    second: kaylees_furniture1_76
+  - first:
+      213: 5107969763271165526
+    second: kaylees_furniture1_77
+  - first:
+      213: 1488447675046590549
+    second: kaylees_furniture1_78
+  - first:
+      213: -1957465869393509837
+    second: kaylees_furniture1_79
+  - first:
+      213: -3453237443781601471
+    second: kaylees_furniture1_80
+  - first:
+      213: 6611983483958236672
+    second: kaylees_furniture1_81
+  - first:
+      213: 3859449318865670643
+    second: kaylees_furniture1_82
+  - first:
+      213: 2078866653387562049
+    second: kaylees_furniture1_83
+  - first:
+      213: -4624586595823254988
+    second: kaylees_furniture1_84
+  - first:
+      213: 8475631855397124603
+    second: kaylees_furniture1_85
+  - first:
+      213: -6596580842243629803
+    second: kaylees_furniture1_86
+  - first:
+      213: -2652695213955381710
+    second: kaylees_furniture1_87
+  - first:
+      213: 82677436337480094
+    second: kaylees_furniture1_88
+  - first:
+      213: -2013512910285414042
+    second: kaylees_furniture1_89
+  - first:
+      213: -7623917722275817062
+    second: kaylees_furniture1_90
+  - first:
+      213: -5223280032022646766
+    second: kaylees_furniture1_91
+  - first:
+      213: 6017567354057864914
+    second: kaylees_furniture1_92
+  - first:
+      213: -5689301453085255893
+    second: kaylees_furniture1_93
+  - first:
+      213: 5349360976247103877
+    second: kaylees_furniture1_94
+  - first:
+      213: -6210908660602946875
+    second: kaylees_furniture1_95
+  - first:
+      213: 6892838207539611357
+    second: kaylees_furniture1_96
+  - first:
+      213: 5270599716512746938
+    second: kaylees_furniture1_97
+  - first:
+      213: -7522446972226790120
+    second: kaylees_furniture1_98
+  - first:
+      213: 5747019132077642107
+    second: kaylees_furniture1_99
+  - first:
+      213: -4937820869706574004
+    second: kaylees_furniture1_100
+  - first:
+      213: -1611288079133172002
+    second: kaylees_furniture1_101
+  - first:
+      213: 8570625289471632698
+    second: kaylees_furniture1_102
+  - first:
+      213: 2176092538955942030
+    second: kaylees_furniture1_103
+  - first:
+      213: -1330309682375424131
+    second: kaylees_furniture1_104
+  - first:
+      213: 348482723577622635
+    second: kaylees_furniture1_105
+  - first:
+      213: -1616381703619891681
+    second: kaylees_furniture1_106
+  - first:
+      213: 2394399072005511781
+    second: kaylees_furniture1_107
+  - first:
+      213: 7331175417122839835
+    second: kaylees_furniture1_108
+  - first:
+      213: -1606236911521262219
+    second: kaylees_furniture1_109
+  - first:
+      213: -2691564405443567102
+    second: kaylees_furniture1_110
+  - first:
+      213: 1241344987916679165
+    second: kaylees_furniture1_111
+  - first:
+      213: 5414041552402646035
+    second: kaylees_furniture1_112
+  - first:
+      213: -2328235851960373506
+    second: kaylees_furniture1_113
+  - first:
+      213: 1133668793820126194
+    second: kaylees_furniture1_114
+  - first:
+      213: -7737876009671036227
+    second: kaylees_furniture1_115
+  - first:
+      213: 1871801421187766164
+    second: kaylees_furniture1_116
+  - first:
+      213: 352119087257505092
+    second: kaylees_furniture1_117
+  - first:
+      213: -5209830859240235963
+    second: kaylees_furniture1_118
+  - first:
+      213: 7763593708522789612
+    second: kaylees_furniture1_119
+  - first:
+      213: 5068454353835495099
+    second: kaylees_furniture1_120
+  - first:
+      213: 1527112233733604952
+    second: kaylees_furniture1_121
+  - first:
+      213: -3335601960567245670
+    second: kaylees_furniture1_122
+  - first:
+      213: -3028897497219400607
+    second: kaylees_furniture1_123
+  - first:
+      213: -5596889560675203056
+    second: kaylees_furniture1_124
+  - first:
+      213: -3524061954895043543
+    second: kaylees_furniture1_125
+  - first:
+      213: 52861088716228256
+    second: kaylees_furniture1_126
+  - first:
+      213: 4481686102101768467
+    second: kaylees_furniture1_127
+  - first:
+      213: -635111099612882321
+    second: kaylees_furniture1_128
+  - first:
+      213: -1404258260082265244
+    second: kaylees_furniture1_129
+  - first:
+      213: -730689184853645370
+    second: kaylees_furniture1_130
+  - first:
+      213: 1981850242421891478
+    second: kaylees_furniture1_131
+  - first:
+      213: 8435440774564534287
+    second: kaylees_furniture1_132
+  - first:
+      213: 8374588578142264548
+    second: kaylees_furniture1_133
+  - first:
+      213: 1210980147055567497
+    second: kaylees_furniture1_134
+  - first:
+      213: 6555425279499770183
+    second: kaylees_furniture1_135
+  - first:
+      213: 2981011170152427959
+    second: kaylees_furniture1_136
+  - first:
+      213: -8015738139117803381
+    second: kaylees_furniture1_137
+  - first:
+      213: -8622362525182798025
+    second: kaylees_furniture1_138
+  - first:
+      213: -6952508514724886849
+    second: kaylees_furniture1_139
+  - first:
+      213: 8074824313572459561
+    second: kaylees_furniture1_140
+  - first:
+      213: -2344105345858023415
+    second: kaylees_furniture1_141
+  - first:
+      213: -6026935608251238128
+    second: kaylees_furniture1_142
+  - first:
+      213: 6137652329492884258
+    second: kaylees_furniture1_143
+  - first:
+      213: 8262646021867387777
+    second: kaylees_furniture1_144
+  - first:
+      213: 3597580005720239275
+    second: kaylees_furniture1_145
+  - first:
+      213: 7831912172025674055
+    second: kaylees_furniture1_146
+  - first:
+      213: 3329823776464204501
+    second: kaylees_furniture1_147
+  - first:
+      213: -3134673638810137683
+    second: kaylees_furniture1_148
+  - first:
+      213: -5509618263919224043
+    second: kaylees_furniture1_149
+  - first:
+      213: -6165970224475769959
+    second: kaylees_furniture1_150
+  - first:
+      213: -4471410176364177322
+    second: kaylees_furniture1_151
+  - first:
+      213: -4432115753555952400
+    second: kaylees_furniture1_152
+  - first:
+      213: 5211728066137541043
+    second: kaylees_furniture1_153
+  - first:
+      213: 5288839224919735139
+    second: kaylees_furniture1_154
+  - first:
+      213: -2700057059833179113
+    second: kaylees_furniture1_155
+  - first:
+      213: 4586598704339456641
+    second: kaylees_furniture1_156
+  - first:
+      213: -6147089282218991202
+    second: kaylees_furniture1_157
+  - first:
+      213: -1004844770259412605
+    second: kaylees_furniture1_158
+  - first:
+      213: 5686932952363757384
+    second: kaylees_furniture1_159
+  - first:
+      213: 3928078076201111056
+    second: kaylees_furniture1_160
+  - first:
+      213: 475730238044252990
+    second: kaylees_furniture1_161
+  - first:
+      213: -5866429706400192680
+    second: kaylees_furniture1_162
+  - first:
+      213: -1798818777963772118
+    second: kaylees_furniture1_163
+  - first:
+      213: 9079999444424773442
+    second: kaylees_furniture1_164
+  - first:
+      213: -2208707366757678074
+    second: kaylees_furniture1_165
+  - first:
+      213: -6553503031661693879
+    second: kaylees_furniture1_166
+  - first:
+      213: -6678936458463334481
+    second: kaylees_furniture1_167
+  - first:
+      213: 7067680596453726825
+    second: kaylees_furniture1_168
+  - first:
+      213: 7668046628614485786
+    second: kaylees_furniture1_169
+  - first:
+      213: -1869244365314719122
+    second: kaylees_furniture1_170
+  - first:
+      213: -1646852883772756498
+    second: kaylees_furniture1_171
+  - first:
+      213: 5476932970555898499
+    second: kaylees_furniture1_172
+  - first:
+      213: 1533724972959394008
+    second: kaylees_furniture1_173
+  - first:
+      213: -1214420197703946438
+    second: kaylees_furniture1_174
+  - first:
+      213: 6159911566622159625
+    second: kaylees_furniture1_175
+  - first:
+      213: -3295423496297167074
+    second: kaylees_furniture1_176
+  - first:
+      213: -6988535563276560169
+    second: kaylees_furniture1_0
+  - first:
+      213: -1626397701742060476
+    second: kaylees_furniture1_1
+  - first:
+      213: 5929621888498285568
+    second: kaylees_furniture1_2
+  - first:
+      213: 984863413669996659
+    second: kaylees_furniture1_3
+  - first:
+      213: -521219317087097615
+    second: kaylees_furniture1_4
+  - first:
+      213: 6447952007643280935
+    second: kaylees_furniture1_5
+  - first:
+      213: 6208759944267516547
+    second: kaylees_furniture1_6
+  - first:
+      213: 8076500188035339030
+    second: kaylees_furniture1_7
+  - first:
+      213: -5176834352070309369
+    second: kaylees_furniture1_8
+  - first:
+      213: -7082498721354886878
+    second: kaylees_furniture1_9
+  - first:
+      213: 8607598990490353578
+    second: kaylees_furniture1_10
+  - first:
+      213: -8044634882558719441
+    second: kaylees_furniture1_11
+  - first:
+      213: -4527398990218260096
+    second: kaylees_furniture1_12
+  - first:
+      213: 2641628145086175345
+    second: kaylees_furniture1_13
+  - first:
+      213: 285610230215111763
+    second: kaylees_furniture1_14
+  - first:
+      213: 1771330087697260926
+    second: kaylees_furniture1_15
+  - first:
+      213: -8475833909136967204
+    second: kaylees_furniture1_16
+  - first:
+      213: 7806508918001724274
+    second: kaylees_furniture1_17
+  - first:
+      213: 8017433509983759618
+    second: kaylees_furniture1_18
+  - first:
+      213: -2986542195029560085
+    second: kaylees_furniture1_19
+  - first:
+      213: 3749633217766492665
+    second: kaylees_furniture1_20
+  - first:
+      213: -6658635246633569998
+    second: kaylees_furniture1_21
+  - first:
+      213: 2508517586353130489
+    second: kaylees_furniture1_22
+  - first:
+      213: -5300616459376010048
+    second: kaylees_furniture1_23
+  - first:
+      213: 8896517240078307210
+    second: kaylees_furniture1_24
+  - first:
+      213: 5194153204453860222
+    second: kaylees_furniture1_25
+  - first:
+      213: 8732658297217037626
+    second: kaylees_furniture1_26
+  - first:
+      213: 2578074075476049314
+    second: kaylees_furniture1_27
+  - first:
+      213: -5850941278041338573
+    second: kaylees_furniture1_28
+  - first:
+      213: -4461677595392087964
+    second: kaylees_furniture1_29
+  - first:
+      213: -8234601257999742306
+    second: kaylees_furniture1_30
+  - first:
+      213: 5983094188347266050
+    second: kaylees_furniture1_31
+  - first:
+      213: -9141340836030747360
+    second: kaylees_furniture1_32
+  - first:
+      213: -8467938654555829354
+    second: kaylees_furniture1_33
+  - first:
+      213: 53691846366758286
+    second: kaylees_furniture1_34
+  - first:
+      213: -2460137350064328835
+    second: kaylees_furniture1_35
+  - first:
+      213: 950228821691244891
+    second: kaylees_furniture1_36
+  - first:
+      213: 303622411368080324
+    second: kaylees_furniture1_37
+  - first:
+      213: -6663829505825758457
+    second: kaylees_furniture1_38
+  - first:
+      213: 5908630589027954212
+    second: kaylees_furniture1_39
+  - first:
+      213: -757952162901164652
+    second: kaylees_furniture1_40
+  - first:
+      213: -5035574281769511748
+    second: kaylees_furniture1_41
+  - first:
+      213: -3359661939334407125
+    second: kaylees_furniture1_42
+  - first:
+      213: -7049715286709493558
+    second: kaylees_furniture1_43
+  - first:
+      213: -7209353480798792904
+    second: kaylees_furniture1_44
+  - first:
+      213: -346646524035235234
+    second: kaylees_furniture1_45
+  - first:
+      213: 563684747902614400
+    second: kaylees_furniture1_46
+  - first:
+      213: 7496886233430591607
+    second: kaylees_furniture1_47
+  - first:
+      213: 6616765737683964962
+    second: kaylees_furniture1_48
+  - first:
+      213: -8939417062106539676
+    second: kaylees_furniture1_49
+  - first:
+      213: 6311581946404509565
+    second: kaylees_furniture1_50
+  - first:
+      213: -7851341529370335179
+    second: kaylees_furniture1_51
+  - first:
+      213: -7338505603130416314
+    second: kaylees_furniture1_52
+  - first:
+      213: 5580009880400810878
+    second: kaylees_furniture1_53
+  - first:
+      213: 6698514238457450486
+    second: kaylees_furniture1_54
+  - first:
+      213: -3731326820844434814
+    second: kaylees_furniture1_55
+  - first:
+      213: -3713579399140588003
+    second: kaylees_furniture1_56
+  - first:
+      213: 9222159749614685040
+    second: kaylees_furniture1_57
+  - first:
+      213: -1158977934190374643
+    second: kaylees_furniture1_58
+  - first:
+      213: -7791091604355230943
+    second: kaylees_furniture1_59
+  - first:
+      213: -4406667824380304216
+    second: kaylees_furniture1_60
+  - first:
+      213: 8493046228477093599
+    second: kaylees_furniture1_61
+  - first:
+      213: -8361734165831895727
+    second: kaylees_furniture1_62
+  - first:
+      213: 3655973214062728046
+    second: kaylees_furniture1_63
+  - first:
+      213: 6217790415437489515
+    second: kaylees_furniture1_64
+  - first:
+      213: -3955156230535432132
+    second: kaylees_furniture1_65
+  - first:
+      213: -7942224104353016274
+    second: kaylees_furniture1_66
+  - first:
+      213: -7555062441542259061
+    second: kaylees_furniture1_67
+  - first:
+      213: 7216268305047284916
+    second: kaylees_furniture1_68
+  - first:
+      213: -1849809328552413531
+    second: kaylees_furniture1_69
+  - first:
+      213: 5923833626057609197
+    second: kaylees_furniture1_70
+  - first:
+      213: 7562395286714865293
+    second: kaylees_furniture1_71
+  - first:
+      213: -6265723483127647305
+    second: kaylees_furniture1_72
+  - first:
+      213: -7180623056242858311
+    second: kaylees_furniture1_73
+  - first:
+      213: 4348113736264659896
+    second: kaylees_furniture1_74
+  - first:
+      213: -5990564502099623410
+    second: kaylees_furniture1_75
+  - first:
+      213: -4516346045207429163
+    second: kaylees_furniture1_76
+  - first:
+      213: -8165642794117584761
+    second: kaylees_furniture1_77
+  - first:
+      213: -1267527655793880416
+    second: kaylees_furniture1_78
+  - first:
+      213: -5443194086107240588
+    second: kaylees_furniture1_79
+  - first:
+      213: -3406914558005616859
+    second: kaylees_furniture1_80
+  - first:
+      213: -5432272807576887441
+    second: kaylees_furniture1_81
+  - first:
+      213: 7347735064781368798
+    second: kaylees_furniture1_82
+  - first:
+      213: -8515812019453108517
+    second: kaylees_furniture1_83
+  - first:
+      213: 8809851654665703538
+    second: kaylees_furniture1_84
+  - first:
+      213: -5024558645750226735
+    second: kaylees_furniture1_85
+  - first:
+      213: -3403555726452800153
+    second: kaylees_furniture1_86
+  - first:
+      213: -8813743529361387847
+    second: kaylees_furniture1_87
+  - first:
+      213: -5761235428052701099
+    second: kaylees_furniture1_88
+  - first:
+      213: -999687288838558611
+    second: kaylees_furniture1_89
+  - first:
+      213: 7581727307704674648
+    second: kaylees_furniture1_90
+  - first:
+      213: 5342641592507449239
+    second: kaylees_furniture1_91
+  - first:
+      213: 82518088910982194
+    second: kaylees_furniture1_92
+  - first:
+      213: 4649353962058270067
+    second: kaylees_furniture1_93
+  - first:
+      213: 9079703441079435557
+    second: kaylees_furniture1_94
+  - first:
+      213: -3820389002543591988
+    second: kaylees_furniture1_95
+  - first:
+      213: -2783398218371288761
+    second: kaylees_furniture1_96
+  - first:
+      213: -8130806872703449848
+    second: kaylees_furniture1_97
+  - first:
+      213: 8798616599156243937
+    second: kaylees_furniture1_98
+  - first:
+      213: 6285143312335214010
+    second: kaylees_furniture1_99
+  - first:
+      213: 3864285268358216384
+    second: kaylees_furniture1_100
+  - first:
+      213: 2564742720167383072
+    second: kaylees_furniture1_101
+  - first:
+      213: 1870751892891757878
+    second: kaylees_furniture1_102
+  - first:
+      213: 1064911227812464370
+    second: kaylees_furniture1_103
+  - first:
+      213: 8540579418877404490
+    second: kaylees_furniture1_104
+  - first:
+      213: 8401812894663282201
+    second: kaylees_furniture1_105
+  - first:
+      213: -5837959663838611134
+    second: kaylees_furniture1_106
+  - first:
+      213: -2110769389623922086
+    second: kaylees_furniture1_107
+  - first:
+      213: -1354978501684923778
+    second: kaylees_furniture1_108
+  - first:
+      213: 4429187917408574485
+    second: kaylees_furniture1_109
+  - first:
+      213: 377794590281337465
+    second: kaylees_furniture1_110
+  - first:
+      213: -150646811046537025
+    second: kaylees_furniture1_111
+  - first:
+      213: -5208375322192596928
+    second: kaylees_furniture1_112
+  - first:
+      213: -7205510155516372945
+    second: kaylees_furniture1_113
+  - first:
+      213: 4143479831564680137
+    second: kaylees_furniture1_114
+  - first:
+      213: -622052663296639183
+    second: kaylees_furniture1_115
+  - first:
+      213: -3744878636633463943
+    second: kaylees_furniture1_116
+  - first:
+      213: -1728417960466886684
+    second: kaylees_furniture1_117
+  - first:
+      213: 509358187822688436
+    second: kaylees_furniture1_118
+  - first:
+      213: -5834157225394032712
+    second: kaylees_furniture1_119
+  - first:
+      213: 6094098074390492474
+    second: kaylees_furniture1_120
+  - first:
+      213: 7615542172281420183
+    second: kaylees_furniture1_121
+  - first:
+      213: 2868122115482755967
+    second: kaylees_furniture1_122
+  - first:
+      213: 6564762981193810953
+    second: kaylees_furniture1_123
+  - first:
+      213: 2696715748283461770
+    second: kaylees_furniture1_124
+  - first:
+      213: 3103322263379186052
+    second: kaylees_furniture1_125
+  - first:
+      213: -7139664393681875029
+    second: kaylees_furniture1_126
+  - first:
+      213: -7136174274254033013
+    second: kaylees_furniture1_127
+  - first:
+      213: 2492387452177824351
+    second: kaylees_furniture1_128
+  - first:
+      213: -7173684416972755165
+    second: kaylees_furniture1_129
+  - first:
+      213: 2062361805124076789
+    second: kaylees_furniture1_130
+  - first:
+      213: -7936084901325241387
+    second: kaylees_furniture1_131
+  - first:
+      213: -8667714286914302234
+    second: kaylees_furniture1_132
+  - first:
+      213: 4657172207805906431
+    second: kaylees_furniture1_133
+  - first:
+      213: 5647382779276739298
+    second: kaylees_furniture1_134
+  - first:
+      213: 4904734973010586172
+    second: kaylees_furniture1_135
+  - first:
+      213: 8902963993750896167
+    second: kaylees_furniture1_136
+  - first:
+      213: 6768885239395035437
+    second: kaylees_furniture1_137
+  - first:
+      213: -4497171884571447791
+    second: kaylees_furniture1_138
+  - first:
+      213: -5022355887388932937
+    second: kaylees_furniture1_139
+  - first:
+      213: 7520058446621163199
+    second: kaylees_furniture1_140
+  - first:
+      213: 7454153582459331820
+    second: kaylees_furniture1_141
+  - first:
+      213: 5081467204061593024
+    second: kaylees_furniture1_142
+  - first:
+      213: -8293654099058296934
+    second: kaylees_furniture1_143
+  - first:
+      213: 4483562031565741355
+    second: kaylees_furniture1_144
+  - first:
+      213: -8192380796406996845
+    second: kaylees_furniture1_145
+  - first:
+      213: 1160347495403590771
+    second: kaylees_furniture1_146
+  - first:
+      213: 1703279538952585215
+    second: kaylees_furniture1_147
+  - first:
+      213: 2519069676576901406
+    second: kaylees_furniture1_148
+  - first:
+      213: 369669285476721188
+    second: kaylees_furniture1_149
+  - first:
+      213: 6161331885576318168
+    second: kaylees_furniture1_150
+  - first:
+      213: 935563483245198831
+    second: kaylees_furniture1_151
+  - first:
+      213: -8350061965319739069
+    second: kaylees_furniture1_152
+  - first:
+      213: 6976393471979056995
+    second: kaylees_furniture1_153
+  - first:
+      213: 1158814463129321975
+    second: kaylees_furniture1_154
+  - first:
+      213: 7765910685715867237
+    second: kaylees_furniture1_155
+  - first:
+      213: 4154738474599009208
+    second: kaylees_furniture1_156
+  - first:
+      213: 4633980048322682557
+    second: kaylees_furniture1_157
+  - first:
+      213: 6615523618728347332
+    second: kaylees_furniture1_158
+  - first:
+      213: -9161526606906926053
+    second: kaylees_furniture1_159
+  - first:
+      213: 6352578043740696466
+    second: kaylees_furniture1_160
+  - first:
+      213: 2727470842863788528
+    second: kaylees_furniture1_161
+  - first:
+      213: 1838155885700106808
+    second: kaylees_furniture1_162
+  - first:
+      213: -5570080251788660660
+    second: kaylees_furniture1_163
+  - first:
+      213: -5972086388707709124
+    second: kaylees_furniture1_164
+  - first:
+      213: 6563487703575234818
+    second: kaylees_furniture1_165
+  - first:
+      213: 3334981030580733851
+    second: kaylees_furniture1_166
+  - first:
+      213: 132334865549283621
+    second: kaylees_furniture1_167
+  - first:
+      213: -549097000527314679
+    second: kaylees_furniture1_168
+  - first:
+      213: 3914058219751749172
+    second: kaylees_furniture1_169
+  - first:
+      213: 131460028660796251
+    second: kaylees_furniture1_170
+  - first:
+      213: 8902762804170198780
+    second: kaylees_furniture1_171
+  - first:
+      213: -476010338463658512
+    second: kaylees_furniture1_172
+  - first:
+      213: -6038978191742433767
+    second: kaylees_furniture1_173
+  - first:
+      213: 8120807159794968572
+    second: kaylees_furniture1_174
+  - first:
+      213: -1716506092847017540
+    second: kaylees_furniture1_175
+  - first:
+      213: 3714985912913691728
+    second: kaylees_furniture1_176
+  - first:
+      213: -3422556365924971375
+    second: kaylees_furniture1_177
+  - first:
+      213: -8161609939627929744
+    second: kaylees_furniture1_178
+  - first:
+      213: -8021647270981077391
+    second: kaylees_furniture1_179
+  - first:
+      213: -4554729278035028752
+    second: kaylees_furniture1_180
+  - first:
+      213: 399481614716720302
+    second: kaylees_furniture1_181
+  - first:
+      213: -5924926631771001146
+    second: kaylees_furniture1_182
+  - first:
+      213: 6250273013484364428
+    second: kaylees_furniture1_183
+  - first:
+      213: 4594921982353959845
+    second: kaylees_furniture1_184
+  - first:
+      213: -1444560084028326815
+    second: kaylees_furniture1_185
+  - first:
+      213: -1698057134044836412
+    second: kaylees_furniture1_186
+  - first:
+      213: -41469972617886485
+    second: kaylees_furniture1_187
+  - first:
+      213: 1031953693565064707
+    second: kaylees_furniture1_188
+  - first:
+      213: 4906927793109671767
+    second: kaylees_furniture1_189
+  - first:
+      213: 7766761813602174770
+    second: kaylees_furniture1_190
+  - first:
+      213: -1935287687322192787
+    second: kaylees_furniture1_191
+  - first:
+      213: 2854650252879857363
+    second: kaylees_furniture1_192
+  - first:
+      213: 2963189111329456451
+    second: kaylees_furniture1_193
+  - first:
+      213: 8035669724293221511
+    second: kaylees_furniture1_194
+  - first:
+      213: 5339586207249386673
+    second: kaylees_furniture1_195
+  - first:
+      213: 428810990180204076
+    second: kaylees_furniture1_196
+  - first:
+      213: 1321872917457541269
+    second: kaylees_furniture1_197
+  - first:
+      213: -1642532086043989750
+    second: kaylees_furniture1_198
+  - first:
+      213: -1214369970908068296
+    second: kaylees_furniture1_199
+  - first:
+      213: 7378436610914947175
+    second: kaylees_furniture1_200
+  - first:
+      213: 4774041435726343375
+    second: kaylees_furniture1_201
+  - first:
+      213: -5966836602004707915
+    second: kaylees_furniture1_202
+  - first:
+      213: -2914196472771621786
+    second: kaylees_furniture1_203
+  - first:
+      213: 6865647985731422823
+    second: kaylees_furniture1_204
+  - first:
+      213: 2159590410776807525
+    second: kaylees_furniture1_205
+  - first:
+      213: -4446677629964362878
+    second: kaylees_furniture1_206
+  - first:
+      213: 7494498102276917229
+    second: kaylees_furniture1_207
+  - first:
+      213: 2583234501187741637
+    second: kaylees_furniture1_208
+  - first:
+      213: 771098385230004389
+    second: kaylees_furniture1_209
+  - first:
+      213: 7408460670678787762
+    second: kaylees_furniture1_210
+  - first:
+      213: -6189145420449411143
+    second: kaylees_furniture1_211
+  - first:
+      213: 8035849294968479617
+    second: kaylees_furniture1_212
+  - first:
+      213: -3278770207783263394
+    second: kaylees_furniture1_213
+  - first:
+      213: -3577154387553000835
+    second: kaylees_furniture1_214
+  - first:
+      213: 4350850006801270389
+    second: kaylees_furniture1_215
+  - first:
+      213: 1559417718989063287
+    second: kaylees_furniture1_216
+  - first:
+      213: -9026590248912810316
+    second: kaylees_furniture1_217
+  - first:
+      213: -8142272940027342537
+    second: kaylees_furniture1_218
+  - first:
+      213: 8110194075046486383
+    second: kaylees_furniture1_219
+  - first:
+      213: -2233496696690112363
+    second: kaylees_furniture1_220
+  - first:
+      213: 1315542249664326915
+    second: kaylees_furniture1_221
+  - first:
+      213: 4476690362888067549
+    second: kaylees_furniture1_222
+  - first:
+      213: -2616532907235437262
+    second: kaylees_furniture1_223
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kaylees_furniture1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d857ba9eebb30f90800000000000000
+      internalID: -6988535563276560169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c172448efdd69e0800000000000000
+      internalID: -1626397701742060476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c325ce0bf3a4250800000000000000
+      internalID: 5929621888498285568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37824148e00faad00800000000000000
+      internalID: 984863413669996659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fca3faeac144c8f0800000000000000
+      internalID: -521219317087097615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7263850303abb7950800000000000000
+      internalID: 6447952007643280935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a4dbd1642f92650800000000000000
+      internalID: 6208759944267516547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613d830412e751070800000000000000
+      internalID: 8076500188035339030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a4fc7b5903828b0800000000000000
+      internalID: -5176834352070309369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221db7700f8e5bd90800000000000000
+      internalID: -7082498721354886878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf30354da5547770800000000000000
+      internalID: 8607598990490353578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a0f555237bb5090800000000000000
+      internalID: -8044634882558719441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08114970b927b21c0800000000000000
+      internalID: -4527398990218260096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17819805dc2f8a420800000000000000
+      internalID: 2641628145086175345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354703cbdf0b6f300800000000000000
+      internalID: 285610230215111763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7128217457059810800000000000000
+      internalID: 1771330087697260926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93eae67f9cf5a80800000000000000
+      internalID: -8475833909136967204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b6961108a465c60800000000000000
+      internalID: 7806508918001724274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d25e49c45a34f60800000000000000
+      internalID: 8017433509983759618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be43c8e62bbad86d0800000000000000
+      internalID: -2986542195029560085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90afe8b8f590430800000000000000
+      internalID: 3749633217766492665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b28ba586c793a0800000000000000
+      internalID: -6658635246633569998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb066f347b00d220800000000000000
+      internalID: 2508517586353130489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccdd400a6d6076b0800000000000000
+      internalID: -5300616459376010048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f81094b47c67b70800000000000000
+      internalID: 8896517240078307210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73ed64d1d6551840800000000000000
+      internalID: 5194153204453860222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353d762472a03970800000000000000
+      internalID: 8732658297217037626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adb46166b827c320800000000000000
+      internalID: 2578074075476049314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d0da048e74dcea0800000000000000
+      internalID: -5850941278041338573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468e550bddfe412c0800000000000000
+      internalID: -4461677595392087964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ac0fdd8c1d8bd80800000000000000
+      internalID: -8234601257999742306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204942ae678380350800000000000000
+      internalID: 5983094188347266050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d6d9941fe632180800000000000000
+      internalID: -9141340836030747360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b8663a8a6db7a80800000000000000
+      internalID: -8467938654555829354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8586062370ceb000800000000000000
+      internalID: 53691846366758286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7faebe4d16dbddd0800000000000000
+      internalID: -2460137350064328835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51ae3c2414ef2d00800000000000000
+      internalID: 950228821691244891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3217779fea63400800000000000000
+      internalID: 303622411368080324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032d75fe525583a0800000000000000
+      internalID: -6663829505825758457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ea408273caff150800000000000000
+      internalID: 5908630589027954212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d798d06863b75f0800000000000000
+      internalID: -757952162901164652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4190fcedb0e1ab0800000000000000
+      internalID: -5035574281769511748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c929434451061d0800000000000000
+      internalID: -3359661939334407125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac02a083c416a2e90800000000000000
+      internalID: -7049715286709493558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83313ccb43b33fb90800000000000000
+      internalID: -7209353480798792904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528140b2d6703bf0800000000000000
+      internalID: -346646524035235234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b7a0caa4c92d700800000000000000
+      internalID: 563684747902614400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77885212f4a4a0860800000000000000
+      internalID: 7496886233430591607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224d0ac916973db50800000000000000
+      internalID: 6616765737683964962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469d21a8b8fc0f380800000000000000
+      internalID: -8939417062106539676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77953e075e379750800000000000000
+      internalID: 6311581946404509565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538eb9b2a7e6a0390800000000000000
+      internalID: -7851341529370335179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643a237f804682a90800000000000000
+      internalID: -7338505603130416314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73d57c0c6d207d40800000000000000
+      internalID: 5580009880400810878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff072aa537e5fc50800000000000000
+      internalID: 6698514238457450486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a0eae960aa73cc0800000000000000
+      internalID: -3731326820844434814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16440d3637b67cc0800000000000000
+      internalID: -3713579399140588003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b40b16e61bbff70800000000000000
+      internalID: 9222159749614685040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01111a95bb7aefe0800000000000000
+      internalID: -1158977934190374643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d0edf67b70e390800000000000000
+      internalID: -7791091604355230943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a42ba416fe58d2c0800000000000000
+      internalID: -4406667824380304216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd62955fb8c5dd570800000000000000
+      internalID: 8493046228477093599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155b75b141725fb80800000000000000
+      internalID: -8361734165831895727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e635d8c9440acb230800000000000000
+      internalID: 3655973214062728046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65eaf780770a4650800000000000000
+      internalID: 6217790415437489515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3833c71d567c19c0800000000000000
+      internalID: -3955156230535432132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e265e7db14d87c190800000000000000
+      internalID: -7942224104353016274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e6af3ecb6072790800000000000000
+      internalID: -7555062441542259061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bce04e3ac5552460800000000000000
+      internalID: 7216268305047284916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6fd6567382456e0800000000000000
+      internalID: -1849809328552413531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def8dad0c4fa53250800000000000000
+      internalID: 5923833626057609197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d865abb227603f860800000000000000
+      internalID: 7562395286714865293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b37a5770bdab09a0800000000000000
+      internalID: -6265723483127647305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b62aaaff5d495c90800000000000000
+      internalID: -7180623056242858311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_74
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b33d05e76a975c30800000000000000
+      internalID: 4348113736264659896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e028940235d3ddca0800000000000000
+      internalID: -5990564502099623410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfbba45337b251c0800000000000000
+      internalID: -4516346045207429163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788a4e5642fcdae80800000000000000
+      internalID: -8165642794117584761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a21c6d0056d86ee0800000000000000
+      internalID: -1267527655793880416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477221661d3e574b0800000000000000
+      internalID: -5443194086107240588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fd7f5924538b0d0800000000000000
+      internalID: -3406914558005616859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f9d55b9a0bc94b0800000000000000
+      internalID: -5432272807576887441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edda9f78c1668f560800000000000000
+      internalID: 7347735064781368798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdede764612c1d980800000000000000
+      internalID: -8515812019453108517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2709c304761e24a70800000000000000
+      internalID: 8809851654665703538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0a0fe688e254ab0800000000000000
+      internalID: -5024558645750226735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c88f791424c0d0800000000000000
+      internalID: -3403555726452800153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be440f05fa4fa580800000000000000
+      internalID: -8813743529361387847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550f58b07eafb00b0800000000000000
+      internalID: -5761235428052701099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ced4615b56022f0800000000000000
+      internalID: -999687288838558611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859ad9f01d4b73960800000000000000
+      internalID: 7581727307704674648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f32abc830e42a40800000000000000
+      internalID: 5342641592507449239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c4511c3c9252100800000000000000
+      internalID: 82518088910982194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375c98f8bc2d58040800000000000000
+      internalID: 4649353962058270067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5218e6f5c26910e70800000000000000
+      internalID: 9079703441079435557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd849781704bfac0800000000000000
+      internalID: -3820389002543591988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741368541126f59d0800000000000000
+      internalID: -2783398218371288761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_97
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c4376a32992f80800000000000000
+      internalID: -8130806872703449848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_98
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed309b0e27fa1a70800000000000000
+      internalID: 8798616599156243937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5992eda80593750800000000000000
+      internalID: 6285143312335214010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca344b4af2b0a530800000000000000
+      internalID: 3864285268358216384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_101
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02098d75aebc79320800000000000000
+      internalID: 2564742720167383072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63de3b65fee36f910800000000000000
+      internalID: 1870751892891757878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_103
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6461b9e1357ce00800000000000000
+      internalID: 1064911227812464370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_104
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4523364bbb368670800000000000000
+      internalID: 8540579418877404490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_105
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e83bf105c399470800000000000000
+      internalID: 8401812894663282201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24937d7dd966bfea0800000000000000
+      internalID: -5837959663838611134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52b2b86c6a05b2e0800000000000000
+      internalID: -2110769389623922086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7277c05b36223de0800000000000000
+      internalID: -1354978501684923778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c179ca1f2a77d30800000000000000
+      internalID: 4429187917408574485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a88cf9d223e3500800000000000000
+      internalID: 377794590281337465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb89605068bc8edf0800000000000000
+      internalID: -150646811046537025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_112
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040bcc75d3228b7b0800000000000000
+      internalID: -5208375322192596928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_113
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f281af2a0b2e00c90800000000000000
+      internalID: -7205510155516372945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_114
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb786624f8908930800000000000000
+      internalID: 4143479831564680137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_115
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f3e9406660e57f0800000000000000
+      internalID: -622052663296639183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9736380a8b4870cc0800000000000000
+      internalID: -3744878636633463943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_117
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef47f2c50d6308e0800000000000000
+      internalID: -1728417960466886684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8ab98b29a911700800000000000000
+      internalID: 509358187822688436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_119
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf2c980ae8e80fa0800000000000000
+      internalID: -5834157225394032712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_120
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35ff6629e5929450800000000000000
+      internalID: 6094098074390492474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_121
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79937deb147dfa960800000000000000
+      internalID: 7615542172281420183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73aac93edd9dc720800000000000000
+      internalID: 2868122115482755967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90401b85629ba1b50800000000000000
+      internalID: 6564762981193810953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8033ac6fa8ac6520800000000000000
+      internalID: 2696715748283461770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481174c0827311b20800000000000000
+      internalID: 3103322263379186052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf461fbf01daec90800000000000000
+      internalID: -7139664393681875029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_127
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8faecf7e4737fc90800000000000000
+      internalID: -7136174274254033013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a33b9be2db69220800000000000000
+      internalID: 2492387452177824351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f6593d704f17c90800000000000000
+      internalID: -7173684416972755165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_130
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f401c8822bfe9c10800000000000000
+      internalID: 2062361805124076789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_131
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d30b2554dc5dd190800000000000000
+      internalID: -7936084901325241387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_132
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee05e197c716b780800000000000000
+      internalID: -8667714286914302234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_133
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdb710c27991a040800000000000000
+      internalID: 4657172207805906431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_134
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2c27577b88f5e40800000000000000
+      internalID: 5647382779276739298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a2bb7b87e111440800000000000000
+      internalID: 4904734973010586172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_136
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e7d97159ead8b70800000000000000
+      internalID: 8902963993750896167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29a68b1349efed50800000000000000
+      internalID: 6768885239395035437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_138
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eae3e7ff5d691c0800000000000000
+      internalID: -4497171884571447791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_139
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b447941ee10d4ab0800000000000000
+      internalID: -5022355887388932937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_140
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb701705d9c5860800000000000000
+      internalID: 7520058446621163199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_141
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4a1bf7039727760800000000000000
+      internalID: 7454153582459331820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd73e3df7ff48640800000000000000
+      internalID: 5081467204061593024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_143
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97faafd98507ec80800000000000000
+      internalID: -8293654099058296934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_144
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d97eba9efc83e30800000000000000
+      internalID: 4483562031565741355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_145
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390ed6d1211de4e80800000000000000
+      internalID: -8192380796406996845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_146
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3749b8736e16a1010800000000000000
+      internalID: 1160347495403590771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_147
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffb57067b343a710800000000000000
+      internalID: 1703279538952585215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1903d4368885f220800000000000000
+      internalID: 2519069676576901406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_149
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422663da144512500800000000000000
+      internalID: 369669285476721188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_150
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc601fa4b2718550800000000000000
+      internalID: 6161331885576318168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed38abf70acbfc00800000000000000
+      internalID: 935563483245198831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349ed9012ee9e1c80800000000000000
+      internalID: -8350061965319739069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_153
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f6aa676e021d060800000000000000
+      internalID: 6976393471979056995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_154
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f188635d9fe41010800000000000000
+      internalID: 1158814463129321975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56621838f9e06cb60800000000000000
+      internalID: 7765910685715867237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb4f1141a898a930800000000000000
+      internalID: 4154738474599009208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_157
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe55845d443f4040800000000000000
+      internalID: 4633980048322682557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_158
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c682814eaf0fcb50800000000000000
+      internalID: 6615523618728347332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_159
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cd5034718bbd080800000000000000
+      internalID: -9161526606906926053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_160
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f2c19c214e82850800000000000000
+      internalID: 6352578043740696466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_161
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a124e74ce9d520800000000000000
+      internalID: 2727470842863788528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_162
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ac2f00a01728910800000000000000
+      internalID: 1838155885700106808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_163
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40f7b5c58913b2b0800000000000000
+      internalID: -5570080251788660660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fa1292213ee1da0800000000000000
+      internalID: -5972086388707709124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2090f33aa41361b50800000000000000
+      internalID: 6563487703575234818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b974e6ce39b384e20800000000000000
+      internalID: 3334981030580733851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_167
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521d67cebd526d100800000000000000
+      internalID: 132334865549283621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_168
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014650ff273168f0800000000000000
+      internalID: -549097000527314679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_169
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436308a9637815630800000000000000
+      internalID: 3914058219751749172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_170
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b4d76133a03d100800000000000000
+      internalID: 131460028660796251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_171
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe002ef997fc8b70800000000000000
+      internalID: 8902762804170198780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_172
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdc5728e1fd469f0800000000000000
+      internalID: -476010338463658512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_173
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9168cda945d313ca0800000000000000
+      internalID: -6038978191742433767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_174
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf727010617e2b070800000000000000
+      internalID: 8120807159794968572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_175
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb15f019dcebd28e0800000000000000
+      internalID: -1716506092847017540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_176
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0540dc441084e8330800000000000000
+      internalID: 3714985912913691728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c4a416e13a080d0800000000000000
+      internalID: -3422556365924971375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f0e2180032cbe80800000000000000
+      internalID: -8161609939627929744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_179
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176f0bbbe426da090800000000000000
+      internalID: -8021647270981077391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_180
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f496a68ad95ac0c0800000000000000
+      internalID: -4554729278035028752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea45d7b796e3b8500800000000000000
+      internalID: 399481614716720302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cea909be9e66cda0800000000000000
+      internalID: -5924926631771001146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8222fdb03e6db650800000000000000
+      internalID: 6250273013484364428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab67d0b23174cf30800000000000000
+      internalID: 4594921982353959845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_185
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c78c6d144e3fbe0800000000000000
+      internalID: -1444560084028326815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_186
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd80f4880a4f68e0800000000000000
+      internalID: -1698057134044836412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_187
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be40445974bac6ff0800000000000000
+      internalID: -41469972617886485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3061991ba6c325e00800000000000000
+      internalID: 1031953693565064707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_189
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f1bce64d8e81440800000000000000
+      internalID: 4906927793109671767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_190
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23783da28b419cb60800000000000000
+      internalID: 7766761813602174770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_191
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6439fa1a1a7425e0800000000000000
+      internalID: -1935287687322192787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_192
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d602e8c741cd9720800000000000000
+      internalID: 2854650252879857363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341091f0ccc5f1920800000000000000
+      internalID: 2963189111329456451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_194
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ccbd81a0f648f60800000000000000
+      internalID: 8035669724293221511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_195
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcccaa7d550a1a40800000000000000
+      internalID: 5339586207249386673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e7979d25173f500800000000000000
+      internalID: 428810990180204076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_197
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59814433a6c385210800000000000000
+      internalID: 1321872917457541269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_198
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09aa2f25cd8439e0800000000000000
+      internalID: -1642532086043989750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_199
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8368f1a02f0b52fe0800000000000000
+      internalID: -1214369970908068296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_200
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76092574109756660800000000000000
+      internalID: 7378436610914947175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_201
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcce67f446dc04240800000000000000
+      internalID: 4774041435726343375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_202
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e5b069b9813da0800000000000000
+      internalID: -5966836602004707915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_203
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c40c28fb1be87d0800000000000000
+      internalID: -2914196472771621786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_204
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ac56e977ea74f50800000000000000
+      internalID: 6865647985731422823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56801be590868fd10800000000000000
+      internalID: 2159590410776807525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_206
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b5c4b414a3a42c0800000000000000
+      internalID: -4446677629964362878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_207
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70e04015ec10860800000000000000
+      internalID: 7494498102276917229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_208
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c724de971e79d320800000000000000
+      internalID: 2583234501187741637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_209
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0038a55ed73ba00800000000000000
+      internalID: 771098385230004389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_210
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6e2407ab320d660800000000000000
+      internalID: 7408460670678787762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf80e6180dbb1aa0800000000000000
+      internalID: -6189145420449411143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_212
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f5b27ab52158f60800000000000000
+      internalID: 8035849294968479617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_213
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53e1f02ed77f72d0800000000000000
+      internalID: -3278770207783263394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_214
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d726c2f79056b5ec0800000000000000
+      internalID: -3577154387553000835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57645668703516c30800000000000000
+      internalID: 4350850006801270389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_216
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7740bcc372a24a510800000000000000
+      internalID: 1559417718989063287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_217
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be0c885efb1bb280800000000000000
+      internalID: -9026590248912810316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_218
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731156196e5d00f80800000000000000
+      internalID: -8142272940027342537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_219
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61af96aa823d8070800000000000000
+      internalID: 8110194075046486383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_220
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59807c286960101e0800000000000000
+      internalID: -2233496696690112363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_221
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30da24eb4beb14210800000000000000
+      internalID: 1315542249664326915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_222
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd99b51aa26602e30800000000000000
+      internalID: 4476690362888067549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kaylees_furniture1_223
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2359c111f2530bbd0800000000000000
+      internalID: -2616532907235437262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
