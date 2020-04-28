@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
 
     private bool WayPointSwitched;
 
-    private Vector3 Path;
+    public Vector3 Path;
 
     public int state;
 
@@ -95,7 +95,7 @@ public class EnemyController : MonoBehaviour
         //save the current position of the enemy
         curPosition = gameObject.transform;
 
-        //checck to seee if the waypoint has been reached
+        //check to seee if the waypoint has been reached
         if (Mathf.Abs(curPosition.position.x - targetWaypoint.position.x) <= 1 && Mathf.Abs(curPosition.position.y - targetWaypoint.position.y) <= 1)
         {
             //if waypoint has been reached, check to see if the way point was the last one in the list
