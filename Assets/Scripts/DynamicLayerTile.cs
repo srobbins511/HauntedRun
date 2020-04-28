@@ -1,18 +1,38 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public class DynamicLayerTile : MonoBehaviour
+public class DynamicLayerTile : Tile
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public int Layer;
+    public override void RefreshTile(Vector3Int position, ITilemap tilemap)
     {
-        
+        Debug.Log("Refresh Called");
+        base.RefreshTile(position, tilemap);
+        if(GameManager.Instance.Player.transform.position.y <= position.y)
+        {
+            tilemap.GetComponent<SpriteRenderer>().renderingLayerMask = GameManager.Instance.Player.GetComponent<SpriteRenderer>().renderingLayerMask-1;
+        }
+        else
+        {
+            tilemap.GetComponent<SpriteRenderer>().renderingLayerMask = GameManager.Instance.Player.GetComponent<SpriteRenderer>().renderingLayerMask + 1;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+#if UNITY_EDITOR
+    // The following is a helper that adds a menu item to create a RoadTile Asset
+    [MenuItem("Assets/Create/RoadTile")]
+    public static void CreateDynamicLayerTile()
     {
-        
+        string path = EditorUtility.SaveFilePanelInProject("Save DynamicLayer Tile", "New DynamicLayer Tile", "Asset", "Save DynamicLayer Tile", "Assets");
+        if (path == "")
+            return;
+        AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<DynamicLayerTile>(), path);
     }
+#endif
 }
