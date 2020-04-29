@@ -190,8 +190,8 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    /*
-     * I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
+    
+     //* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
     private void FixedUpdate()
     {
 
@@ -229,6 +229,5 @@ public class EnemyController : MonoBehaviour
         }
         #endregion
     }
-    */
     #endregion
 }
