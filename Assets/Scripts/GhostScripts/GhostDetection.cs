@@ -92,4 +92,15 @@ public class GhostDetection : ChaseZone
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         StopCoroutine(ChaseTimer);
     }
+
+    public void ResetState()
+    {
+        if(AgroTimer != null)
+            StopCoroutine(AgroTimer);
+        if(ChaseTimer != null)
+            StopCoroutine(ChaseTimer);
+        canSeePlayer = false;
+        player = null;
+        playerLocation = null;
+    }
 }

@@ -8,11 +8,21 @@ public class EnemyManager : MonoBehaviour
 
     public List<GameObject> Enemies;
 
+    private bool resetAI;
+
     public Coroutine EnemyAI;
     void Awake()
     {
         Enemies = new List<GameObject>(GameObject.FindGameObjectsWithTag("Enemy"));
         EnemyAI = StartCoroutine(EnemyMovement());
+    }
+
+    public void resetGhostStates()
+    {
+        foreach(GameObject e in Enemies)
+        {
+            e.GetComponent<EnemyController>().ResetState();
+        }
     }
         
 
@@ -34,6 +44,11 @@ public class EnemyManager : MonoBehaviour
                     case 1:
                         e.GetComponent<EnemyController>().Chase();
                         break;
+                }
+                if(e.GetComponent<EnemyController>().killedPlayer)
+                {
+                    e.GetComponent<EnemyController>().killedPlayer = false;
+                    e.GetComponent<EnemyController>().ResetState();
                 }
             }
             yield return new WaitForFixedUpdate();

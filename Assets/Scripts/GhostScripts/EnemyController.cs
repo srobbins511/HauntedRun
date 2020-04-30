@@ -24,6 +24,8 @@ public class EnemyController : MonoBehaviour
 
     public int state;
 
+    private int startState;
+
     public Animator animator;
 
     [SerializeField]
@@ -31,6 +33,8 @@ public class EnemyController : MonoBehaviour
     private float movementSpeed;
 
     private Vector3 tolerance = new Vector3(.5f, .5f, .5f);
+
+    public bool killedPlayer;
     #endregion
 
 
@@ -44,6 +48,7 @@ public class EnemyController : MonoBehaviour
     /// </summary>
     void Start()
     {
+        killedPlayer = false;
         curPosition = gameObject.transform;
         currentWaypoint = 0;
         if (state != -1)
@@ -56,7 +61,20 @@ public class EnemyController : MonoBehaviour
             targetWaypoint = gameObject.transform;
         }
         WayPointSwitched = false;
+        startState = state;
         animator = GetComponentInParent<Animator>();
+        findPath();
+    }
+
+    public void ResetState()
+    {
+        state = startState;
+        GhostDetection aggro = GetComponentInChildren<GhostDetection>();
+        if(aggro != null)
+        {
+            aggro.ResetState();
+        }
+        targetWaypoint = Waypoints[currentWaypoint];
         findPath();
     }
 
@@ -66,6 +84,7 @@ public class EnemyController : MonoBehaviour
         {
             case "Player":
                 GameManager.Instance.TriggerDeath();
+                killedPlayer = true;
                 break;
             case "ChaseZone":
                 checkZone(other.gameObject);
