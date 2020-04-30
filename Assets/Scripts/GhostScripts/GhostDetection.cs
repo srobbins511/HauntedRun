@@ -31,14 +31,18 @@ public class GhostDetection : ChaseZone
             if (AgroTimer != null) StopCoroutine(AgroTimer);
             player = collision.gameObject;
             playerLocation = player.transform;
-            canSeePlayer = true;
+            canSeePlayer = false;
             direction = player.transform.position - gameObject.transform.position;
             RaycastHit2D r = Physics2D.Raycast(gameObject.transform.position, direction, direction.magnitude,GameManager.Instance.BlockViewFilter.layerMask);
-            if(r.collider != null && (gameObject.GetComponentInParent<EnemyController>().state == 1 || gameObject.GetComponentInParent<EnemyController>().state == 0) )
+            if(r.collider == null)
             {
-                canSeePlayer = false;
+                canSeePlayer = true;
+            }
+            else if(gameObject.GetComponentInParent<EnemyController>().state == 1)
+            {
                 AgroTimer = StartCoroutine(LoseAgroTimer());
             }
+
             if (canSeePlayer && gameObject.GetComponentInParent<EnemyController>().state != 1)
             {
                 ChaseTimer = StartCoroutine(StartChaseTimer());
@@ -51,7 +55,8 @@ public class GhostDetection : ChaseZone
     protected override void OnTriggerExit2D(Collider2D collision)
     {
         canSeePlayer = false;
-        AgroTimer = StartCoroutine(LoseAgroTimer());
+        if(AgroTimer == null)
+            AgroTimer = StartCoroutine(LoseAgroTimer());
     }
 
     IEnumerator LoseAgroTimer()
@@ -65,9 +70,10 @@ public class GhostDetection : ChaseZone
         }
         if(time >= disengageTime)
         {
-            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
             player = null;
+            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
         }
+        StopCoroutine(AgroTimer);
     }
     IEnumerator StartChaseTimer()
     {
@@ -84,5 +90,6 @@ public class GhostDetection : ChaseZone
             gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
         }
         GetComponentInChildren<SpriteRenderer>().enabled = false;
+        StopCoroutine(ChaseTimer);
     }
 }

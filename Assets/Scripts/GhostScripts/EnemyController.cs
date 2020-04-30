@@ -62,7 +62,6 @@ public class EnemyController : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        Debug.Log(other.gameObject.name);
         switch (other.tag)
         {
             case "Player":
@@ -93,7 +92,7 @@ public class EnemyController : MonoBehaviour
             findPath();
         }
         //move the enemy down the path
-        gameObject.transform.position += Path;
+        gameObject.transform.position += Path * Time.deltaTime;
 
         //save the current position of the enemy
         curPosition = gameObject.transform;
@@ -127,7 +126,7 @@ public class EnemyController : MonoBehaviour
         {
             findPath();
 
-            gameObject.transform.position += Path;
+            gameObject.transform.position += Path * Time.deltaTime;
 
             //save the current position of the enemy
             curPosition = gameObject.transform;
@@ -164,7 +163,7 @@ public class EnemyController : MonoBehaviour
     {
         //use the route method to get the unit vector in the direction of the waypoint
         //then multiply that vector by the enemies speed to get the incremental path
-        Path = route() * movementSpeed * Time.deltaTime;
+        Path = route() * movementSpeed;
 
         //change flag variable for if waypoints have been switched
         WayPointSwitched = false;
@@ -188,10 +187,11 @@ public class EnemyController : MonoBehaviour
             targetWaypoint = Waypoints[currentWaypoint];
             findPath();
         }
+        
     }
 
     
-     //* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
+     /* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
     private void FixedUpdate()
     {
 
@@ -229,5 +229,7 @@ public class EnemyController : MonoBehaviour
         }
         #endregion
     }
+
+    */
     #endregion
 }
