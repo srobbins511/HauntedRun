@@ -12,6 +12,8 @@ public class LeverScript : Interactable
     private Canvas eventText;
 
     private float timer;
+
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,7 @@ public class LeverScript : Interactable
         {
             controlledObject.GetComponent<Interactable>().Interact();
             eventText.enabled = true;
+
         }
     }
 }
