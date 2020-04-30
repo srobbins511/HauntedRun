@@ -42,8 +42,9 @@ GameObject:
   - component: {fileID: 865811078064398062}
   - component: {fileID: 865811078064398049}
   - component: {fileID: 865811078064398048}
+  - component: {fileID: 1401272361132934609}
   m_Layer: 0
-  m_Name: Ghost Stand in
+  m_Name: ChasingGhost
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -129,9 +130,12 @@ MonoBehaviour:
   Waypoints:
   - {fileID: 865811077698270343}
   - {fileID: 865811079252586919}
+  curPosition: {fileID: 0}
   currentWaypoint: 0
   targetWaypoint: {fileID: 0}
+  Path: {x: 0, y: 0, z: 0}
   state: 0
+  animator: {fileID: 1401272361132934609}
   movementSpeed: 0.025
 --- !u!70 &865811078064398048
 CapsuleCollider2D:
@@ -149,6 +153,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.05065996, y: 0.03346302}
   m_Size: {x: 0.30688497, y: 0.5971519}
   m_Direction: 0
+--- !u!95 &1401272361132934609
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865811078064398060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 213cb0af2d55c4afea758a317b2d9903, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &865811079252586916
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,7 +211,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 865811079263169645}
-  - component: {fileID: 970769469288824769}
   m_Layer: 0
   m_Name: ChasingGhost
   m_TagString: Untagged
@@ -213,25 +235,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &970769469288824769
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865811079263169642}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f068f1268917944f486ab503b56b42cd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3394151046940954212
 GameObject:
   m_ObjectHideFlags: 0

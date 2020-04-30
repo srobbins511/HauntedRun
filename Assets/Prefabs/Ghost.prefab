@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 865811078064398049}
   - component: {fileID: 865811078064398048}
   - component: {fileID: 5331122484921748435}
+  - component: {fileID: 6074113999221332103}
   m_Layer: 0
   m_Name: Ghost Stand in
   m_TagString: Enemy
@@ -130,9 +131,12 @@ MonoBehaviour:
   Waypoints:
   - {fileID: 865811077698270343}
   - {fileID: 865811079252586919}
+  curPosition: {fileID: 0}
   currentWaypoint: 0
   targetWaypoint: {fileID: 0}
+  Path: {x: 0, y: 0, z: 0}
   state: 0
+  animator: {fileID: 6074113999221332103}
   movementSpeed: 2
 --- !u!70 &865811078064398048
 CapsuleCollider2D:
@@ -171,6 +175,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!95 &6074113999221332103
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865811078064398060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e67fc240ec4a42a8b2b8ee0a09cf910, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &865811079252586916
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +233,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 865811079263169645}
-  - component: {fileID: 3761864156499756575}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -235,22 +257,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &3761864156499756575
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865811079263169642}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e9526c7d83d574fcfb4a7c0d7b7ff98c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
