@@ -6,6 +6,12 @@ public class GhostActivationManager : MonoBehaviour
 {
     public GameObject ControlledGhosts;
 
+
+    public void Start()
+    {
+        Reset();
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("Trigger Entered");
@@ -21,6 +27,14 @@ public class GhostActivationManager : MonoBehaviour
             Debug.Log("Player interacted With");
             ControlledGhosts.SetActive(false);
             GameManager.Instance.enemyManager.FindGhosts();
+        }
+    }
+
+    public void Reset()
+    {
+        if (ControlledGhosts != null)
+        {
+            ControlledGhosts.SetActive(false);
         }
     }
 

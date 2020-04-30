@@ -102,5 +102,6 @@ public class GhostDetection : ChaseZone
         canSeePlayer = false;
         player = null;
         playerLocation = null;
+        gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
     }
 }

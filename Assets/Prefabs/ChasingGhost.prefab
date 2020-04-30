@@ -137,6 +137,7 @@ MonoBehaviour:
   state: 0
   animator: {fileID: 1401272361132934609}
   movementSpeed: 0.025
+  killedPlayer: 0
 --- !u!70 &865811078064398048
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -248,7 +249,7 @@ GameObject:
   - component: {fileID: 5525483826486775512}
   m_Layer: 2
   m_Name: Agrorange
-  m_TagString: ChaseZone
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -49,6 +49,10 @@ public class GameManager : MonoBehaviour
     public void TriggerDeath()
     {
         numLives--;
+        foreach(GhostActivationManager g in FindObjectsOfType<GhostActivationManager>())
+        {
+            g.Reset();
+        }
         if (numLives == 0)
         {
             SceneManager.LoadScene("GameOver");
