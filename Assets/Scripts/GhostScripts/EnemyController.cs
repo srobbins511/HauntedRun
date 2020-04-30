@@ -190,46 +190,46 @@ public class EnemyController : MonoBehaviour
         
     }
 
-    
-     /* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
-    private void FixedUpdate()
-    {
 
-        #region Updated States
+    /* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
+   private void FixedUpdate()
+   {
 
-        if ((Path.x != 0 || Path.y != 0) && state != -1)
-        {
-            animator.SetBool("IsMoving", true);
-        }
-        else
-        {
-            animator.SetBool("IsMoving", false);
-        }
+       #region Updated States
 
-        if (Path.x > 0)
-        {
-            animator.SetBool("IsMovingRight", true);
-            animator.SetBool("IsMovingLeft", false);
-        }
-        else if (Path.x < 0)
-        {
-            animator.SetBool("IsMovingLeft", true);
-            animator.SetBool("IsMovingRight", false);
-        }
+       if ((Path.x != 0 || Path.y != 0) && state != -1)
+       {
+           animator.SetBool("IsMoving", true);
+       }
+       else
+       {
+           animator.SetBool("IsMoving", false);
+       }
 
-        if (Path.y > 0)
-        {
-            animator.SetBool("IsMovingUp", true);
-            animator.SetBool("IsMovingDown", false);
-        }
-        else if (Path.y < 0)
-        {
-            animator.SetBool("IsMovingUp", false);
-            animator.SetBool("IsMovingDown", true);
-        }
-        #endregion
-    }
+       if (Path.x > 0)
+       {
+           animator.SetBool("IsMovingRight", true);
+           animator.SetBool("IsMovingLeft", false);
+       }
+       else if (Path.x < 0)
+       {
+           animator.SetBool("IsMovingLeft", true);
+           animator.SetBool("IsMovingRight", false);
+       }
 
-    */
+       if (Path.y > 0)
+       {
+           animator.SetBool("IsMovingUp", true);
+           animator.SetBool("IsMovingDown", false);
+       }
+       else if (Path.y < 0)
+       {
+           animator.SetBool("IsMovingUp", false);
+           animator.SetBool("IsMovingDown", true);
+       }
+       #endregion
+   }*/
+
+
     #endregion
 }
