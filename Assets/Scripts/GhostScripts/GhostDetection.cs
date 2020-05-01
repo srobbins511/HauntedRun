@@ -93,11 +93,11 @@ public class GhostDetection : ChaseZone
         StopCoroutine(ChaseTimer);
     }
 
-    public void ResetState()
+    public override void ResetState()
     {
-        if(AgroTimer != null)
+        if (AgroTimer != null)
             StopCoroutine(AgroTimer);
-        if(ChaseTimer != null)
+        if (ChaseTimer != null)
             StopCoroutine(ChaseTimer);
         canSeePlayer = false;
         player = null;
