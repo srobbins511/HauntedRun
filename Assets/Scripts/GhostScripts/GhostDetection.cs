@@ -68,7 +68,7 @@ public class GhostDetection : ChaseZone
             time += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
-        if(time >= disengageTime)
+        if(!canSeePlayer)
         {
             player = null;
             gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
@@ -85,19 +85,16 @@ public class GhostDetection : ChaseZone
             time += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
-        if (time >= startChaseDelay)
-        {
-            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
-        }
+        gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
         GetComponentInChildren<SpriteRenderer>().enabled = false;
         StopCoroutine(ChaseTimer);
     }
 
-    public void ResetState()
+    public override void ResetState()
     {
-        if(AgroTimer != null)
+        if (AgroTimer != null)
             StopCoroutine(AgroTimer);
-        if(ChaseTimer != null)
+        if (ChaseTimer != null)
             StopCoroutine(ChaseTimer);
         canSeePlayer = false;
         player = null;

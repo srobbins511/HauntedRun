@@ -195,7 +195,12 @@ public class EnemyController : MonoBehaviour
 
     public void checkZone(GameObject zone)
     {
-        if (zone.GetComponent<ChaseZone>().player != null)
+        if (!zone.GetComponent<ChaseZone>().isNestedInEnemy && zone.GetComponent<ChaseZone>().player != null)
+        {
+            state = 1;
+            targetWaypoint = zone.GetComponent<ChaseZone>().playerLocation;
+        }
+        else if(zone.GetComponent<GhostDetection>() != null && zone.GetComponent<GhostDetection>().canSeePlayer)
         {
             state = 1;
             targetWaypoint = zone.GetComponent<ChaseZone>().playerLocation;
@@ -210,7 +215,7 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    /* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up
+    /* I am leaving this script commented out for now until there is animations in because it throws errors that kill performance when there is no animations set up*/
    private void FixedUpdate()
    {
 
@@ -236,19 +241,19 @@ public class EnemyController : MonoBehaviour
            animator.SetBool("IsMovingRight", false);
        }
 
-       if (Path.y > 0)
+       if (Path.y > 0 && Path.x == 0)
        {
            animator.SetBool("IsMovingUp", true);
            animator.SetBool("IsMovingDown", false);
        }
-       else if (Path.y < 0)
+       else if (Path.y < 0 && Path.x == 0)
        {
            animator.SetBool("IsMovingUp", false);
            animator.SetBool("IsMovingDown", true);
        }
        #endregion
-   }*/
-
+   }
+   
 
     #endregion
 }

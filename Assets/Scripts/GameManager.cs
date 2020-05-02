@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
         {
             g.Reset();
         }
+        enemyManager.resetGhostStates();
         if (numLives == 0)
         {
             SceneManager.LoadScene("GameOver");

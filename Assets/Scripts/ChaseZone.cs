@@ -47,4 +47,12 @@ public class ChaseZone : MonoBehaviour
             }
         }
     }
+
+    public virtual void ResetState()
+    {
+        canSeePlayer = false;
+        player = null;
+        playerLocation = null;
+        gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+    }
 }
