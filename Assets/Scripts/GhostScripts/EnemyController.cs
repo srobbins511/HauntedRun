@@ -234,14 +234,17 @@ public class EnemyController : MonoBehaviour
        {
            animator.SetBool("IsMovingRight", true);
            animator.SetBool("IsMovingLeft", false);
-       }
+           animator.SetBool("IsMovingDown", false);
+           animator.SetBool("IsMovingUp", false);
+        }
        else if (Path.x < 0)
        {
            animator.SetBool("IsMovingLeft", true);
            animator.SetBool("IsMovingRight", false);
-       }
-
-       if (Path.y > 0 && Path.x == 0)
+           animator.SetBool("IsMovingDown", false);
+           animator.SetBool("IsMovingUp", false);
+        }
+       else if (Path.y > 0 && Path.x == 0)
        {
            animator.SetBool("IsMovingUp", true);
            animator.SetBool("IsMovingDown", false);

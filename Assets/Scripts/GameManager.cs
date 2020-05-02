@@ -69,11 +69,11 @@ public class GameManager : MonoBehaviour
 
     public void Update()
     {
-        if(Input.GetButtonDown("Cancel"))
+        if (Input.GetButtonDown("Cancel"))
         {
             Application.Quit();
         }
-        if(SceneManager.GetActiveScene().buildIndex >= 3 && Input.GetButtonDown("Interact"))
+        if((SceneManager.GetActiveScene().name.Equals("WinScreen") || SceneManager.GetActiveScene().name.Equals("GameOver")) && Input.GetButtonDown("Interact"))
         {
             SceneManager.LoadScene(0);
         }
@@ -127,6 +127,7 @@ public class GameManager : MonoBehaviour
     public void LoadLevel(string LevelName)
     {
         SceneManager.LoadScene(LevelName);
+        numLives = Player.GetComponent<CharacterMovement>().NumLives;
     }
 
     public void Pause()

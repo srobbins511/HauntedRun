@@ -83,9 +83,9 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     protected virtual void FixedUpdate()
     {
-        if(CanTarget)
+        if(CanTarget && !GameManager.Instance.Paused)
             checkInputs();
-        if(canMove)
+        if(canMove && !GameManager.Instance.Paused)
             Move();
         
     }

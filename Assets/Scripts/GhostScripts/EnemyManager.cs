@@ -31,7 +31,7 @@ public class EnemyManager : MonoBehaviour
         yield return new WaitUntil(EnemiesInstantiated);
         while (true)
         {
-            if (GameManager.Instance.Paused)
+            if (!GameManager.Instance.Paused)
             {
                 foreach (GameObject e in Enemies)
                 {

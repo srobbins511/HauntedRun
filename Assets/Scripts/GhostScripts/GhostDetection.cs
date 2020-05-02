@@ -23,6 +23,17 @@ public class GhostDetection : ChaseZone
         base.Start();
         results = new List<RaycastHit2D>();
     }
+
+    public void OnEnable()
+    {
+        Start();
+    }
+
+    public void Update()
+    {
+        if (!canSeePlayer && AgroTimer!= null)
+            AgroTimer = StartCoroutine(LoseAgroTimer());
+    }
     // Start is called before the first frame update
     protected override void OnTriggerStay2D(Collider2D collision)
     {
@@ -54,9 +65,12 @@ public class GhostDetection : ChaseZone
 
     protected override void OnTriggerExit2D(Collider2D collision)
     {
-        canSeePlayer = false;
-        if(AgroTimer == null)
-            AgroTimer = StartCoroutine(LoseAgroTimer());
+        if(collision.CompareTag("Player"))
+        {
+            canSeePlayer = false;
+            if (AgroTimer == null && gameObject.activeInHierarchy)
+                AgroTimer = StartCoroutine(LoseAgroTimer());
+        }
     }
 
     IEnumerator LoseAgroTimer()
@@ -70,6 +84,7 @@ public class GhostDetection : ChaseZone
         }
         if(!canSeePlayer)
         {
+            Debug.Log("Couldnt see player");
             player = null;
             gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
         }
@@ -99,6 +114,7 @@ public class GhostDetection : ChaseZone
         canSeePlayer = false;
         player = null;
         playerLocation = null;
-        gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
+        if(gameObject.GetComponentInParent<EnemyController>() != null)
+            gameObject.GetComponentInParent<EnemyController>().checkZone(gameObject);
     }
 }

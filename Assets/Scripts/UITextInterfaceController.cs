@@ -140,7 +140,6 @@ public class UITextInterfaceController : MonoBehaviour
                 time += Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             }
-            Debug.Log(Backlog.Count);
             if(Backlog.Count > 0)
             {
                 loop = true;

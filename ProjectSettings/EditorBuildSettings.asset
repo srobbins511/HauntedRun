@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 -Programmed.unity
     guid: d05d66e2fed152645b6fa6f26fcd894b
   - enabled: 1
+    path: Assets/Scenes/TheRealLevel2.unity
+    guid: 384e66e75ab48ec4ab724adfd45ac98b
+  - enabled: 1
     path: Assets/Scenes/Level 2 Remastered.unity
     guid: b0f20729a9f52034d8903a0b700f7843
   - enabled: 1

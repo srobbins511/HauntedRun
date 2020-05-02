@@ -24,7 +24,6 @@ public class HUDManager : MonoBehaviour
         NumLives.text = "Life Count: " + GameManager.Instance.numLives;
         if(Input.GetKeyDown(KeyCode.M))
         {
-            GameManager.Instance.Pause();
             Pause();
         }
     }
@@ -38,5 +37,6 @@ public class HUDManager : MonoBehaviour
     {
         UITextInterface.SetActive(!UITextInterface.activeInHierarchy);
         PauseScreen.SetActive(!PauseScreen.activeInHierarchy);
+        GameManager.Instance.Pause();
     }
 }
