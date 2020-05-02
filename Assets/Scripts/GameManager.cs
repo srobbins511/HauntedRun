@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
 
     public int LevelCount = 0;
 
+    public bool Paused = false;
+
     void Awake()
     {
         if(Instance == null)
@@ -127,7 +129,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(LevelName);
     }
 
-    
+    public void Pause()
+    {
+        Paused = !Paused;
+    }
+
 
     public void Instatiate()
     {

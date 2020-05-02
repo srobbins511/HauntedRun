@@ -31,24 +31,27 @@ public class EnemyManager : MonoBehaviour
         yield return new WaitUntil(EnemiesInstantiated);
         while (true)
         {
-            foreach(GameObject e in Enemies)
+            if (GameManager.Instance.Paused)
             {
-                switch (e.GetComponent<EnemyController>().state)
+                foreach (GameObject e in Enemies)
                 {
-                    //default movement option
-                    case -1:
-                        break;
-                    case 0:
-                        e.GetComponent<EnemyController>().Move();
-                        break;
-                    case 1:
-                        e.GetComponent<EnemyController>().Chase();
-                        break;
-                }
-                if(e.GetComponent<EnemyController>().killedPlayer)
-                {
-                    e.GetComponent<EnemyController>().killedPlayer = false;
-                    e.GetComponent<EnemyController>().ResetState();
+                    switch (e.GetComponent<EnemyController>().state)
+                    {
+                        //default movement option
+                        case -1:
+                            break;
+                        case 0:
+                            e.GetComponent<EnemyController>().Move();
+                            break;
+                        case 1:
+                            e.GetComponent<EnemyController>().Chase();
+                            break;
+                    }
+                    if (e.GetComponent<EnemyController>().killedPlayer)
+                    {
+                        e.GetComponent<EnemyController>().killedPlayer = false;
+                        e.GetComponent<EnemyController>().ResetState();
+                    }
                 }
             }
             yield return new WaitForFixedUpdate();

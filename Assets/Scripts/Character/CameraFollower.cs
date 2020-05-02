@@ -39,6 +39,7 @@ public class CameraFollower : MonoBehaviour
         {
             size = gameObject.GetComponent<Camera>().orthographicSize -= 10 * Input.GetAxis("Mouse ScrollWheel");
         }
+
     }
 
     public void FindPlayer()

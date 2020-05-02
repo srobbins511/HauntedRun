@@ -10,6 +10,8 @@ public class HUDManager : MonoBehaviour
 
     public GameObject UITextInterface;
 
+    public GameObject PauseScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +22,21 @@ public class HUDManager : MonoBehaviour
     void Update()
     {
         NumLives.text = "Life Count: " + GameManager.Instance.numLives;
+        if(Input.GetKeyDown(KeyCode.M))
+        {
+            GameManager.Instance.Pause();
+            Pause();
+        }
     }
 
     public void WriteTextToPlayer(string text, float time, uint textWriteSpeed)
     {
         UITextInterface.GetComponent<UITextInterfaceController>().WriteToScreen(text, time, textWriteSpeed);
+    }
+
+    public void Pause()
+    {
+        UITextInterface.SetActive(!UITextInterface.activeInHierarchy);
+        PauseScreen.SetActive(!PauseScreen.activeInHierarchy);
     }
 }
