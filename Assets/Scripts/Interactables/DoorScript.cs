@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class DoorScript : Interactable
 {
+    public Animator animator1;
+    public Animator animator2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +21,7 @@ public class DoorScript : Interactable
 
     public override void Interact()
     {
-        gameObject.SetActive(false);
+        animator1.SetTrigger("IsOpen");
+        animator2.SetTrigger("IsOpen2");
     }
 }
