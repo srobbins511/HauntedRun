@@ -16952,12 +16952,12 @@ PrefabInstance:
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: text
-      value: Thet saw me! I need to find a way out quick!!
+      value: They saw me! I need to find a way out quick!!
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: textWriteSpeed
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
@@ -16967,7 +16967,7 @@ PrefabInstance:
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: TimeShown
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943434, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
@@ -65884,7 +65884,7 @@ PrefabInstance:
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: textWriteSpeed
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
@@ -69365,7 +69365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1586549041
 AudioSource:
   m_ObjectHideFlags: 0
@@ -69376,7 +69376,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d805209747ea0db44b106b80eb1ca6f5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 12118acb88a75514698d0bb46d252112, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -71363,7 +71363,7 @@ PrefabInstance:
     - target: {fileID: 5757993227795943430, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.29
+      value: 60.5
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943430, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
