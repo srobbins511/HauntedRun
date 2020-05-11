@@ -46,12 +46,21 @@ public class GameManager : MonoBehaviour
             numLives = Player.GetComponent<CharacterMovement>().NumLives;
         enemyManager = FindObjectOfType<EnemyManager>();
         HUD = GameObject.FindGameObjectWithTag("HUD");
+
     }
 
     public void TriggerDeath()
     {
-        numLives--;
-        Player.GetComponent<CharacterMovement_AnimationTest>().Killed();
+        if (!Player.GetComponent<CharacterMovement_AnimationTest>().dying)
+        {
+            numLives--;
+            Player.GetComponent<CharacterMovement_AnimationTest>().Killed();
+        }
+    }
+
+    public void BlackScreen()
+    {
+        HUD.GetComponent<HUDManager>().FadeOutScreen();
     }
 
     public void Respawn()
@@ -68,8 +77,13 @@ public class GameManager : MonoBehaviour
         else
         {
             Debug.Log("Reset Movement called");
-            Player.GetComponent<CharacterMovement>().onDeath();
+            HUD.GetComponent<HUDManager>().FadeInScreen();
         }
+    }
+
+    public void resetPlayer()
+    {
+        Player.GetComponent<CharacterMovement_AnimationTest>().onDeath();
     }
 
     public void Update()

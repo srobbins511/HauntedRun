@@ -81,14 +81,14 @@ public class CharacterMovement_AnimationTest : CharacterMovement
         animator.SetBool("IsDead", true);
         animator.SetBool("IsMoving", false);
         dying = true;
-        
+        GameManager.Instance.BlackScreen();
+
     }
 
     public void Respawn()
     {
         animator.SetBool("IsDead", false);
         GameManager.Instance.Respawn();
-        dying = false;
     }
 
 
