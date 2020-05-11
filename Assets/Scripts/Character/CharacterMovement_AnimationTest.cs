@@ -79,6 +79,7 @@ public class CharacterMovement_AnimationTest : CharacterMovement
     public void Killed()
     {
         animator.SetBool("IsDead", true);
+        animator.SetBool("IsMoving", false);
         dying = true;
         
     }
