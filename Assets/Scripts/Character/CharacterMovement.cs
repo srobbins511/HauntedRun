@@ -57,6 +57,8 @@ public class CharacterMovement : MonoBehaviour
     public int NumLives;
 
     private List<RaycastHit2D> results;
+
+    public bool dying;
     #endregion
 
 
@@ -83,9 +85,9 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     protected virtual void FixedUpdate()
     {
-        if(CanTarget && !GameManager.Instance.Paused)
+        if(CanTarget && !GameManager.Instance.Paused && !dying)
             checkInputs();
-        if(canMove && !GameManager.Instance.Paused)
+        if(canMove && !GameManager.Instance.Paused && !dying)
             Move();
         
     }

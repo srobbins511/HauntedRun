@@ -71,5 +71,24 @@ public class CharacterMovement_AnimationTest : CharacterMovement
 
     }
 
-    
+    public override void onDeath()
+    {
+        base.onDeath();
+    }
+
+    public void Killed()
+    {
+        animator.SetBool("IsDead", true);
+        dying = true;
+        
+    }
+
+    public void Respawn()
+    {
+        animator.SetBool("IsDead", false);
+        GameManager.Instance.Respawn();
+        dying = false;
+    }
+
+
 }

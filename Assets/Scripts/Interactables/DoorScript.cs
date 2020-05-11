@@ -21,6 +21,7 @@ public class DoorScript : Interactable
 
     public override void Interact()
     {
+        gameObject.GetComponent<Collider2D>().enabled = false;
         animator1.SetTrigger("IsOpen");
         animator2.SetTrigger("IsOpen2");
     }
