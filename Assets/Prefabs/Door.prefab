@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 983600335027621307}
   - component: {fileID: 3024855057463095822}
   - component: {fileID: 5707857970254556722}
+  - component: {fileID: 6735278473062727131}
   m_Layer: 0
   m_Name: door1
   m_TagString: Untagged
@@ -212,6 +213,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6735278473062727131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983600335027621300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a65a065d0f6e08941905d4eeb90057fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &983600335434129458
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +250,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983600335434129458}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.062794, y: -8.190716, z: -68.83203}
   m_LocalScale: {x: 0.9, y: 1, z: 1}
   m_Children:
@@ -259,7 +272,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.95168686, y: 1.6765194}
+  m_Offset: {x: -0.95168686, y: 2.262105}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -270,7 +283,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4918365, y: 0.9742737}
+  m_Size: {x: 2.4918365, y: 2.1454449}
   m_EdgeRadius: 0
 --- !u!114 &983600335434129456
 MonoBehaviour:

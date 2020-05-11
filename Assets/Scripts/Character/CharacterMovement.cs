@@ -106,7 +106,7 @@ public class CharacterMovement : MonoBehaviour
         movingUp = Input.GetAxisRaw("Vertical");
 
         movingRight *= map.cellSize.x;
-        movingUp *= map.cellSize.y;
+        movingUp *= map.cellSize.x;
 
         if (movingUp != 0 && (movingRight = 0) == 0)
         {

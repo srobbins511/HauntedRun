@@ -40,7 +40,7 @@ public class LeverScript : Interactable
         {
             controlledObject.GetComponent<Interactable>().Interact();
             eventText.enabled = true;
-
+            gameObject.GetComponent<Collider2D>().enabled = false;
         }
     }
 }
