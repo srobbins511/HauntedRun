@@ -36,7 +36,8 @@ public class LeverScript : Interactable
 
     public override void Interact()
     {
-        if(controlledObject.tag.Equals("LeverControlled"))
+        //animator.SetTrigger("IsTriggered");
+        if (controlledObject.tag.Equals("LeverControlled"))
         {
             controlledObject.GetComponent<Interactable>().Interact();
             eventText.enabled = true;
