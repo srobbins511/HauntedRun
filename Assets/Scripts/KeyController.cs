@@ -8,6 +8,8 @@ public class KeyController : MonoBehaviour
 
     private GameObject LevelManager;
 
+    public AudioClip Keysound;
+
 
     public void Start()
     {
@@ -21,6 +23,7 @@ public class KeyController : MonoBehaviour
             collected = true;
             LevelManager.GetComponent<LevelManager>().OnKeyCollect();
             Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(Keysound, transform.position);
         }
 
     }
