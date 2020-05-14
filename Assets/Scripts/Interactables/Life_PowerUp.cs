@@ -2,28 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Life_PowerUp : Interactable
+public class Life_PowerUp : MonoBehaviour
 {
-    //public int NumberLives = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement_AnimationTest>().NumLives;
-    public GameObject ring;
     public int NumberLives;
 
-    public override void Interact()
+    void Start()
     {
-        NumberLives += 1;
-
-        ring.SetActive(false);
-
-        Invoke("Reset", 0.001f);
 
     }
 
-    private void Reset()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (NumberLives > 0)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            NumberLives = 0;
-        }
+            Debug.Log("Added a Life!");
 
+            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement>().NumLives += 1;
+
+            Destroy(this.gameObject);
+        }
     }
 }
