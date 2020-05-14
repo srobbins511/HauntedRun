@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public int numLives;
     public GameObject Player;
 
+    public GameObject Ring;
+
     public string endLevel;
     public static GameManager Instance;
 
@@ -42,6 +44,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         Player = GameObject.FindGameObjectWithTag("Player");
+        Ring = GameObject.Find("RingPowerUp");
         if(Player != null)
             numLives = Player.GetComponent<CharacterMovement>().NumLives;
         enemyManager = FindObjectOfType<EnemyManager>();
@@ -95,6 +98,12 @@ public class GameManager : MonoBehaviour
         if((SceneManager.GetActiveScene().name.Equals("WinScreen") || SceneManager.GetActiveScene().name.Equals("GameOver")) && Input.GetButtonDown("Interact"))
         {
             SceneManager.LoadScene(0);
+        }
+
+        //ring power up test
+        if (Ring.GetComponent<Life_PowerUp>().NumberLives == 1)
+        {
+            numLives += 1;
         }
 
     }
