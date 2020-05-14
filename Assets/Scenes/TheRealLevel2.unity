@@ -76701,7 +76701,7 @@ PrefabInstance:
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
       propertyPath: text
-      value: This ring gave me two extra lives!
+      value: This ring gave me an extra life!
       objectReference: {fileID: 0}
     - target: {fileID: 5757993227795943432, guid: 132f973a86689a54cae74291eac6ccb6,
         type: 3}
@@ -77172,7 +77172,7 @@ PrefabInstance:
     - target: {fileID: 6094133635112613316, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.97
+      value: 20.04
       objectReference: {fileID: 0}
     - target: {fileID: 6094133635112613316, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
@@ -77222,17 +77222,17 @@ PrefabInstance:
     - target: {fileID: 6094133635112613316, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.9629867
+      value: 1.5520461
       objectReference: {fileID: 0}
     - target: {fileID: 6094133635112613316, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.9629867
+      value: 1.5520461
       objectReference: {fileID: 0}
     - target: {fileID: 6094133635112613316, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.9629867
+      value: 1.5520461
       objectReference: {fileID: 0}
     - target: {fileID: 6094133635112613337, guid: c0abb55ac5ab64671a14cfd71780c2c4,
         type: 3}
