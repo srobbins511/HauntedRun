@@ -17406,6 +17406,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8679245
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1828957341039687173, guid: 52d18b53308d8ad45915e7651d841528,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1828957341119463628, guid: 52d18b53308d8ad45915e7651d841528,
         type: 3}
       propertyPath: m_Name
