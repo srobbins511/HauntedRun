@@ -13,7 +13,7 @@ public class LeverScript : Interactable
 
     private float timer;
 
-    Animator animator;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +36,8 @@ public class LeverScript : Interactable
 
     public override void Interact()
     {
-        //animator.SetTrigger("IsTriggered");
+        animator.SetTrigger("IsTriggered");
+
         if (controlledObject.tag.Equals("LeverControlled"))
         {
             controlledObject.GetComponent<Interactable>().Interact();
