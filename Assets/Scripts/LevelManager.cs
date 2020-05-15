@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
 
     private int keyIndex = 0;
 
-    private int KeyMax;
+    public int KeyMax;
 
 
     public void Start()
