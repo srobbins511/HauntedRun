@@ -17,7 +17,7 @@ public class Life_PowerUp : MonoBehaviour
         {
             Debug.Log("Added a Life!");
 
-            GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement>().NumLives += 1;
+            GameManager.Instance.numLives += 1;
 
             Destroy(this.gameObject);
         }
