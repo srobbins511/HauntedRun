@@ -18,6 +18,7 @@ TagManager:
   - GhostActivator
   - GhostDeactivator
   - Ring
+  - Lights
   layers:
   - Default
   - TransparentFX

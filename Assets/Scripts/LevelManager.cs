@@ -12,14 +12,16 @@ public class LevelManager : MonoBehaviour
     [SerializeField]
     private string NextLevel;
 
-    private int keyIndex = 0;
+    public int keyIndex = 0;
 
-    private int KeyMax;
+    public int KeyMax;
 
 
     public void Start()
     {
         Keys = new List<GameObject>(GameObject.FindGameObjectsWithTag("Collectable"));
+
+
         KeyMax = GameObject.FindGameObjectsWithTag("Collectable").Length;
         GameManager.Instance.Instatiate();
     }
