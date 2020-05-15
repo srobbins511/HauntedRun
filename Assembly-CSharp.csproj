@@ -63,11 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KeyIconManager.cs" />
     <Compile Include="Assets\Scripts\Character\CameraFollower.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Character\CharacterMovement_AnimationTest.cs" />
     <Compile Include="Assets\Scripts\Character\InteractSphereController.cs" />
     <Compile Include="Assets\Scripts\ChaseZone.cs" />
+    <Compile Include="Assets\Scripts\DoorAudio.cs" />
+    <Compile Include="Assets\Scripts\DoorListener.cs" />
     <Compile Include="Assets\Scripts\DynamicLayerTile.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GhostScripts\EnemyAnimation.cs" />
@@ -83,10 +86,13 @@
     <Compile Include="Assets\Scripts\Interactables\HiddenRoom.cs" />
     <Compile Include="Assets\Scripts\Interactables\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactables\LeverScript.cs" />
+    <Compile Include="Assets\Scripts\Interactables\Life_PowerUp.cs" />
+    <Compile Include="Assets\Scripts\Interactables\MultiDoorScript.cs" />
     <Compile Include="Assets\Scripts\Interactables\PopUpText.cs" />
     <Compile Include="Assets\Scripts\Interactables\PowerUp.cs" />
     <Compile Include="Assets\Scripts\KeyController.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\LeverAudio.cs" />
     <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Scripts\TileMapScript.cs" />
     <Compile Include="Assets\Scripts\UITextInterfaceController.cs" />

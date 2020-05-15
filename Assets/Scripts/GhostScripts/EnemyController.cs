@@ -89,6 +89,17 @@ public class EnemyController : MonoBehaviour
             case "ChaseZone":
                 checkZone(other.gameObject);
                 break;
+            case "BlockView":
+                animator.SetBool("GoingThruWall", true);
+                break;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.CompareTag("BlockView"))
+        {
+            animator.SetBool("GoingThruWall", false);
         }
     }
 
