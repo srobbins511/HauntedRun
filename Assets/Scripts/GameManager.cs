@@ -98,10 +98,10 @@ public class GameManager : MonoBehaviour
         }
 
         //Ring Power Up - Score Update
-        if (numLives != Player.GetComponent<CharacterMovement>().NumLives)
+        /*if (numLives != Player.GetComponent<CharacterMovement>().NumLives)
         {
             numLives = Player.GetComponent<CharacterMovement>().NumLives;
-        }
+        }*/
 
     }
 
