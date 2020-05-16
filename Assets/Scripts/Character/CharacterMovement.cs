@@ -147,7 +147,6 @@ public class CharacterMovement : MonoBehaviour
         else
             gameObject.transform.Translate(new Vector3(movingRight, movingUp, 0) * Time.deltaTime);
             */
-        Debug.Log("Move Called");
         float yMovement = movingUp * MovementSpeed * Time.deltaTime;
         float xMovement = movingRight * MovementSpeed * Time.deltaTime;
         gameObject.transform.position = new Vector3(gameObject.transform.position.x + xMovement, gameObject.transform.position.y + yMovement, 0);
@@ -162,7 +161,6 @@ public class CharacterMovement : MonoBehaviour
 
     public virtual void onDeath()
     {
-        Debug.Log("OnDeath Called");
         gameObject.transform.position = StartPos.position;
         TargetLocation = StartPos.position;
     }

@@ -25,7 +25,7 @@ public class LeverScript : Interactable
     // Update is called once per frame
     void Update()
     {
-        if(eventText.enabled && timer < 5f)
+        if(eventText != null && eventText.enabled && timer < 5f)
         {
             timer += Time.deltaTime;
         }

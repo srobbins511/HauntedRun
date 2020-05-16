@@ -62,7 +62,6 @@ public class HUDManager : MonoBehaviour
             BlackScreen.color = new Color(BlackScreen.color.r, BlackScreen.color.g, BlackScreen.color.b, Mathf.Lerp(BlackScreen.color.a, 1f, Time.deltaTime));
             yield return new WaitForEndOfFrame();
         }
-        Debug.Log("Darkened Completely");
         BlackScreen.color = new Color(BlackScreen.color.r, BlackScreen.color.g, BlackScreen.color.b, 1f);
         GameManager.Instance.resetPlayer();
 
@@ -70,7 +69,6 @@ public class HUDManager : MonoBehaviour
 
     IEnumerator Brighten()
     {
-        Debug.Log("Brighten");
         while (BlackScreen.color.a > .1f)
         {
             BlackScreen.color = new Color(BlackScreen.color.r, BlackScreen.color.g, BlackScreen.color.b, Mathf.Lerp(BlackScreen.color.a, 0f, Time.deltaTime));

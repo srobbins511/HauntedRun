@@ -54,7 +54,6 @@ public class GameManager : MonoBehaviour
 
     public void TurnOffLight()
     {
-        Debug.Log("Called");
         foreach(GameObject l in Lights)
         {
             l.gameObject.SetActive(false);
@@ -96,7 +95,6 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Reset Movement called");
             HUD.GetComponent<HUDManager>().FadeInScreen();
             TurnOnLight();
             

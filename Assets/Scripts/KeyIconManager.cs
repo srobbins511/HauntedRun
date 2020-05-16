@@ -12,7 +12,7 @@ public class KeyIconManager : MonoBehaviour
     public GameObject KeyIconPrefab;
     public List<GameObject> Icons;
     GameObject temp;
-    public GameObject LM;
+    private GameObject LM;
 
     public Coroutine startLoading;
 
@@ -20,23 +20,27 @@ public class KeyIconManager : MonoBehaviour
 
     public int prevKeyIndex;
 
+    private bool run;
     public void Start()
     {
+        run = false;
         prevKeyIndex = 0;
         Invoke("Run", 1f);
     }
 
     public void Update()
     {
-        
-        if(LM.GetComponent<LevelManager>().keyIndex > prevKeyIndex)
+        if (run)
         {
-            OnKeyCollect();
-        }
-            
+            if (LM.GetComponent<LevelManager>().keyIndex > prevKeyIndex)
+            {
+                OnKeyCollect();
+            }
+        }   
     }
     public void Run()
     {
+        run = true;
         LM = GameObject.FindGameObjectWithTag("LevelManager");
         Icons = new List<GameObject>();
         NumKeysInLevel = LM.GetComponent<LevelManager>().KeyMax;

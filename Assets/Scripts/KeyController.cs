@@ -11,10 +11,15 @@ public class KeyController : MonoBehaviour
     public AudioClip Keysound;
 
 
-    public void Start()
+    public void Awake()
     {
         LevelManager = GameObject.FindGameObjectWithTag("LevelManager");
+        if(!gameObject.activeSelf)
+        {
+            LevelManager.GetComponent<LevelManager>().AddKey(gameObject);
+        }
     }
+
 
     public void OnTriggerEnter2D(Collider2D other)
     {

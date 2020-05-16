@@ -17,11 +17,9 @@ public class LevelManager : MonoBehaviour
     public int KeyMax;
 
 
-    public void Start()
+    public void Awake()
     {
-        Keys = new List<GameObject>(GameObject.FindGameObjectsWithTag("Collectable"));
-
-
+        Keys = new List<GameObject>(GameObject.FindGameObjectsWithTag("Collectable")); 
         KeyMax = GameObject.FindGameObjectsWithTag("Collectable").Length;
         GameManager.Instance.Instatiate();
     }
@@ -41,6 +39,14 @@ public class LevelManager : MonoBehaviour
         {
             GameManager.Instance.LoadLevel(NextLevel);
         }
+    }
+
+    public void AddKey(GameObject key)
+    {
+        Debug.Log("Key added");
+        Keys.Add(key);
+        KeyMax++;
+        GameManager.Instance.Instatiate();
     }
     public bool CheckKeys()
     {
