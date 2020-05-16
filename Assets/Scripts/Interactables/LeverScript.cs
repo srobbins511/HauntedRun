@@ -17,7 +17,8 @@ public class LeverScript : Interactable
     // Start is called before the first frame update
     void Start()
     {
-        eventText.enabled = false;
+        if(eventText != null)
+            eventText.enabled = false;
         timer = 0;
     }
 
@@ -28,7 +29,7 @@ public class LeverScript : Interactable
         {
             timer += Time.deltaTime;
         }
-        else
+        else if(eventText != null)
         {
             eventText.enabled = false;
         }
@@ -41,7 +42,8 @@ public class LeverScript : Interactable
         if (controlledObject.tag.Equals("LeverControlled"))
         {
             controlledObject.GetComponent<Interactable>().Interact();
-            eventText.enabled = true;
+            if(eventText != null)
+                eventText.enabled = true;
             gameObject.GetComponent<Collider2D>().enabled = false;
         }
     }

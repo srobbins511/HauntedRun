@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     public bool Paused = false;
 
-    private GameObject Lights;
+    private GameObject[] Lights;
 
     void Awake()
     {
@@ -49,7 +49,24 @@ public class GameManager : MonoBehaviour
             numLives = Player.GetComponent<CharacterMovement>().NumLives;
         enemyManager = FindObjectOfType<EnemyManager>();
         HUD = GameObject.FindGameObjectWithTag("HUD");
-        Lights = GameObject.FindGameObjectWithTag("Lights");
+        Lights = GameObject.FindGameObjectsWithTag("Lights");
+    }
+
+    public void TurnOffLight()
+    {
+        Debug.Log("Called");
+        foreach(GameObject l in Lights)
+        {
+            l.gameObject.SetActive(false);
+        }
+    }
+
+    public void TurnOnLight()
+    {
+        foreach (GameObject l in Lights)
+        {
+            l.gameObject.SetActive(true);
+        }
     }
 
     public void TriggerDeath()
@@ -81,13 +98,14 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Reset Movement called");
             HUD.GetComponent<HUDManager>().FadeInScreen();
-            Lights.SetActive(true);
+            TurnOnLight();
+            
         }
     }
 
     public void resetPlayer()
     {
-        Lights.SetActive(false);
+        TurnOffLight();
         Player.GetComponent<CharacterMovement_AnimationTest>().onDeath();
     }
 
@@ -172,6 +190,6 @@ public class GameManager : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         enemyManager = FindObjectOfType<EnemyManager>();
         HUD = GameObject.FindGameObjectWithTag("HUD");
-        Lights = GameObject.FindGameObjectWithTag("Lights");
+        Lights = GameObject.FindGameObjectsWithTag("Lights");
     }
 }
