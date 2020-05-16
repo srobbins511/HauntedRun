@@ -25,7 +25,6 @@ public class HUDManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        NumLives.text = "Life Count: " + GameManager.Instance.numLives;
         if(Input.GetKeyDown(KeyCode.M))
         {
             Pause();
