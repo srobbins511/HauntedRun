@@ -7,7 +7,7 @@ public class MenuManager : MonoBehaviour
 
     public void Quit()
     {
-        GameManager.Instance.Quit();
+        GameManager.Quit();
     }
 
     public void Startgame()

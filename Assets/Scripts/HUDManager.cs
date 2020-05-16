@@ -20,6 +20,7 @@ public class HUDManager : MonoBehaviour
     void Start()
     {
         BlackScreen.color = new Color(BlackScreen.color.r, BlackScreen.color.g, BlackScreen.color.b, 0f);
+        BlackScreen.enabled = false;
     }
 
     // Update is called once per frame
@@ -76,6 +77,12 @@ public class HUDManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
         BlackScreen.color = new Color(BlackScreen.color.r, BlackScreen.color.g, BlackScreen.color.b, 0f);
+        BlackScreen.enabled = true;
 
+    }
+
+    public void Quit()
+    {
+        GameManager.Quit();
     }
 }

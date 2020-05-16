@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
         HUD.GetComponent<HUDManager>().WriteTextToPlayer(text, time, textWriteSpeed);
     }
 
-    public void Quit()
+    public static void Quit()
     {
         Application.Quit();
     }
